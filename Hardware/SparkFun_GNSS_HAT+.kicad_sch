@@ -4002,7 +4002,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Connector:Qwiic_Right_Angle"
+		(symbol "SparkFun-Connector:Qwiic_Vertical"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -4016,7 +4016,7 @@
 					)
 				)
 			)
-			(property "Value" "Qwiic_RA"
+			(property "Value" "Qwiic_Vertical"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -4024,7 +4024,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_RA"
+			(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Vertical"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -4051,7 +4051,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "CONN-13694"
+			(property "PROD_ID" "CONN-14483"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -4078,7 +4078,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Qwiic_Right_Angle_0_0"
+			(symbol "Qwiic_Vertical_0_0"
 				(polyline
 					(pts
 						(xy 5.6514 -4.1459) (xy 5.6299 -4.0654) (xy 5.5924 -3.9985) (xy 5.5373 -3.9428) (xy 5.4632 -3.8962)
@@ -4178,7 +4178,7 @@
 					)
 				)
 			)
-			(symbol "Qwiic_Right_Angle_1_1"
+			(symbol "Qwiic_Vertical_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end -0.508 -5.207)
@@ -4339,7 +4339,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 5.08 3.81 270)
+					(at 2.54 3.81 270)
 					(length 2.54) hide
 					(name "NC"
 						(effects
@@ -4357,7 +4357,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 6.35 3.81 270)
+					(at 2.54 3.81 270)
 					(length 2.54) hide
 					(name "NC"
 						(effects
@@ -5886,7 +5886,7 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Connector:microSD_PushPush"
+		(symbol "SparkFun-Connector:microSD_Friction"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5899,7 +5899,7 @@
 					)
 				)
 			)
-			(property "Value" "microSD"
+			(property "Value" "microSD_Friction"
 				(at 0 -12.7 0)
 				(do_not_autoplace)
 				(effects
@@ -5908,8 +5908,8 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:microSD_External_Pin"
-				(at 0 -15.24 0)
+			(property "Footprint" "SparkFun-Connector:microSD_Friction_Fit_Common"
+				(at 1.27 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5917,8 +5917,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn.sparkfun.com/assets/a/d/6/0/8/microSD_Datasheet_msd-1-a.pdf"
-				(at 0 -17.78 0)
+			(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/1050270001_sd.pdf"
+				(at 1.27 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5927,7 +5927,7 @@
 				)
 			)
 			(property "Description" "Micro SD socket External Pin"
-				(at 0 -22.86 0)
+				(at 1.27 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5935,7 +5935,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "CONN-16110"
+			(property "PROD_ID" "CONN-20948"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -5962,7 +5962,33 @@
 					(hide yes)
 				)
 			)
-			(symbol "microSD_PushPush_1_1"
+			(symbol "microSD_Friction_0_1"
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -0.9525 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -1.905 -5.08) (xy -1.27 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "microSD_Friction_1_1"
 				(rectangle
 					(start -6.35 13.97)
 					(end 6.35 -11.43)
@@ -5972,6 +5998,14 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(text "VDD"
+					(at 2.54 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 				(pin bidirectional line
@@ -6013,7 +6047,7 @@
 				(pin bidirectional line
 					(at -8.89 10.16 0)
 					(length 2.54)
-					(name "DAT3/CD"
+					(name "DAT3/~{CS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6139,7 +6173,7 @@
 				(pin passive line
 					(at -8.89 -5.08 0)
 					(length 2.54)
-					(name "~{DET}"
+					(name "DET"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7272,6 +7306,87 @@
 				)
 			)
 		)
+		(symbol "SparkFun-Hardware:Standoff"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ST"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Standoff"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SparkFun-Hardware:Standoff"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun #4 screw stand off"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Standoff_1_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-IC-Memory:CAT24C512WI-GT3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7496,198 +7611,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SparkFun-Jumper:Jumper_Measure"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Measure"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-				(at -0.254 -4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_Measure_0_1"
-				(rectangle
-					(start -0.508 0.508)
-					(end 0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Jumper_Measure_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10807,7 +10730,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 72.39) (xy 240.03 72.39)
+			(xy 233.68 72.39) (xy 236.22 72.39)
 		)
 		(stroke
 			(width 0)
@@ -10847,7 +10770,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 68.58) (xy 238.76 74.93)
+			(xy 234.95 68.58) (xy 234.95 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11067,7 +10990,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 74.93) (xy 238.76 74.93)
+			(xy 236.22 74.93) (xy 234.95 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11257,7 +11180,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 77.47) (xy 238.76 77.47)
+			(xy 236.22 77.47) (xy 234.95 77.47)
 		)
 		(stroke
 			(width 0)
@@ -12497,7 +12420,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 77.47) (xy 238.76 78.74)
+			(xy 234.95 77.47) (xy 234.95 78.74)
 		)
 		(stroke
 			(width 0)
@@ -12967,7 +12890,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 69.85) (xy 240.03 69.85)
+			(xy 233.68 69.85) (xy 236.22 69.85)
 		)
 		(stroke
 			(width 0)
@@ -14130,7 +14053,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 237.49 72.39 180)
+		(at 233.68 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14140,7 +14063,7 @@
 		)
 		(uuid "9575ba58-e941-4b4a-9bcf-c8ac26a9877d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9367 72.39 0)
+			(at 227.1267 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14460,7 +14383,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 237.49 69.85 180)
+		(at 233.68 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14470,7 +14393,7 @@
 		)
 		(uuid "c7ece998-90be-4b39-ad85-28c91e382c12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9972 69.85 0)
+			(at 227.1872 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15229,74 +15152,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 31.75 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09b360a8-9405-44eb-9ce7-791e846b1f56")
-		(property "Reference" "JP4"
-			(at 27.94 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 31.75 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 31.496 62.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 31.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9a7c2ba-0579-4d54-82e2-9e8cef6721e4")
-		)
-		(pin "1"
-			(uuid "65a89195-0107-4985-8485-11ddbad56945")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Capacitor:1.0uF_0603_16V_10%")
 		(at 134.62 67.31 0)
 		(mirror x)
@@ -15730,7 +15585,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 238.76 68.58 0)
+		(at 234.95 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15739,7 +15594,7 @@
 		(fields_autoplaced yes)
 		(uuid "17c16aff-ea29-4e39-a319-e98f033ce399")
 		(property "Reference" "#PWR067"
-			(at 238.76 72.39 0)
+			(at 234.95 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15748,7 +15603,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 238.76 64.77 0)
+			(at 234.95 64.77 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15757,7 +15612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 68.58 0)
+			(at 234.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,7 +15621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 68.58 0)
+			(at 234.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +15630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 238.76 74.93 0)
+			(at 234.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16018,6 +15873,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 80.01 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bd9933e-3dab-49a0-bd08-97bf363d9db1")
+		(property "Reference" "JP11"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 79.756 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "373c47da-a664-4549-bd0c-f9ca849e27cb")
+		)
+		(pin "1"
+			(uuid "96c60945-df7b-4ae8-bf74-14ae47466722")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Connector:USB_C_Receptacle")
 		(at 203.2 121.92 0)
 		(unit 1)
@@ -16192,75 +16114,6 @@
 			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 80.01 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2290441f-e0d1-4c79-8066-48d150944bd7")
-		(property "Reference" "JP21"
-			(at 83.82 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 80.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 80.264 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 80.01 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "436a3192-c958-4b98-a9b3-6237363fe452")
-		)
-		(pin "1"
-			(uuid "0ef2090c-e3d8-4ccc-9061-8619df5ee5e0")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP21")
 					(unit 1)
 				)
 			)
@@ -16565,6 +16418,134 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Hardware:Standoff")
+		(at 255.27 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c3a6814-2e73-417b-9b98-6da4fc21cfb9")
+		(property "Reference" "ST1"
+			(at 255.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Standoff"
+			(at 255.27 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Hardware:Standoff"
+			(at 255.27 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 255.27 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "ST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Hardware:Standoff")
+		(at 251.46 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c6fdb75-5b5f-479a-9303-594fe6843ade")
+		(property "Reference" "ST2"
+			(at 251.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Standoff"
+			(at 251.46 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Hardware:Standoff"
+			(at 251.46 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 251.46 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "ST2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 29.21 71.12 0)
 		(unit 1)
@@ -16632,76 +16613,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 31.75 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f89aca4-cfff-410d-8896-0cfcd2e3de3a")
-		(property "Reference" "JP5"
-			(at 27.94 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 31.75 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 31.496 65.532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1b2990b6-3e13-4cee-89be-026fc6ee2636")
-		)
-		(pin "1"
-			(uuid "dabdff5d-8851-4f38-93e3-c9d7438d6722")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Aesthetic:SparkPNT_Logo")
-		(at 212.09 179.07 0)
+		(at 210.82 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16710,7 +16623,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fa3c0a5-cc6b-4a81-9246-c3b1392f49e5")
 		(property "Reference" "G1"
-			(at 212.09 174.625 0)
+			(at 210.82 174.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16719,7 +16632,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 212.09 183.515 0)
+			(at 210.82 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16728,7 +16641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 179.07 0)
+			(at 210.82 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16737,7 +16650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 179.07 0)
+			(at 210.82 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16746,7 +16659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 179.07 0)
+			(at 210.82 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17053,44 +16966,32 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Qwiic_Right_Angle")
-		(at 245.11 72.39 0)
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 80.01 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "397df2e3-1d85-4c66-9a01-cfe3e4a325fb")
-		(property "Reference" "J8"
-			(at 254 72.3899 0)
+		(uuid "3a453301-651b-48d4-a22d-ae0278887062")
+		(property "Reference" "JP19"
+			(at 83.82 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Qwiic_RA"
-			(at 254 74.9299 0)
+		(property "Value" "~"
+			(at 80.01 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_RA"
-			(at 245.11 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 245.11 87.63 0)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 79.756 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17098,8 +16999,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4 pin JST 1mm polarized connector for I2C"
-			(at 245.11 90.17 0)
+		(property "Datasheet" "~"
+			(at 80.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17107,37 +17008,25 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CONN-13694"
-			(at 245.11 82.55 0)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 80.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "eb4e52d3-bd0f-46a7-9942-8ea4051ab9ad")
-		)
-		(pin "NC1"
-			(uuid "d4468f76-7cc6-45d0-af8a-c6335598e6e7")
 		)
 		(pin "2"
-			(uuid "e7fe8aa2-a38c-4c27-959e-1deb0acd57ea")
-		)
-		(pin "NC2"
-			(uuid "371c8dda-cde6-4c37-8dc5-676178ecf718")
+			(uuid "805bc649-57f8-4170-ab5f-f7b581eb902c")
 		)
 		(pin "1"
-			(uuid "dbde9dc5-808a-4c25-a274-562cc8b9de0b")
-		)
-		(pin "4"
-			(uuid "f984d8eb-49ed-4006-b004-6c8226584d09")
+			(uuid "17cfc45b-3eb9-42e8-8dc3-114a2f10ef43")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J8")
+					(reference "JP19")
 					(unit 1)
 				)
 			)
@@ -17443,16 +17332,107 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
-		(at 176.53 124.46 180)
+		(lib_id "SparkFun-Connector:Qwiic_Vertical")
+		(at 241.3 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "42c14631-ddeb-44a6-acda-f898e429a855")
-		(property "Reference" "JP9"
-			(at 180.34 123.19 0)
+		(fields_autoplaced yes)
+		(uuid "419547d5-38a9-4c2b-80ab-5f8a12ed39cc")
+		(property "Reference" "J8"
+			(at 250.19 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Qwiic_Vertical"
+			(at 250.19 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Vertical"
+			(at 241.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 241.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 pin JST 1mm polarized connector for I2C"
+			(at 241.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-14483"
+			(at 241.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7244ea29-a66a-40f3-bcc4-ab7ae70c7b73")
+		)
+		(pin "2"
+			(uuid "94935f41-7811-4a78-aa16-0be33525ccc1")
+		)
+		(pin "NC1"
+			(uuid "3c03675a-3ce5-467b-a388-f1223470a7d5")
+		)
+		(pin "NC2"
+			(uuid "666bd275-3c44-4901-8513-2721f9f8bc19")
+		)
+		(pin "4"
+			(uuid "1644b0e5-14f3-4b58-ac38-61af53898f4f")
+		)
+		(pin "1"
+			(uuid "ba82ece1-da65-4693-b895-2b6d8a4a404c")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 80.01 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "427d999c-6cd8-43b9-9fe4-fb7854a47611")
+		(property "Reference" "JP18"
+			(at 83.82 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17460,7 +17440,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 176.53 129.54 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17468,7 +17448,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
-			(at 176.784 119.888 0)
+			(at 79.756 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17477,7 +17457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 116.84 0)
+			(at 80.01 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17486,7 +17466,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 176.53 114.3 0)
+			(at 80.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17495,15 +17475,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "81a5f2e1-7657-4243-b9a5-a6da5e6130f6")
+			(uuid "647d1e00-5e25-449b-a106-e753c6a5bcb3")
 		)
 		(pin "1"
-			(uuid "26f2a930-d3da-4f04-af50-9e28aabcc9a5")
+			(uuid "82d7a051-b523-485f-905c-a4f0a4e777a4")
 		)
 		(instances
 			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP9")
+					(reference "JP18")
 					(unit 1)
 				)
 			)
@@ -17571,73 +17551,6 @@
 			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
-		(at 176.53 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44fecef3-f2bb-48fa-846e-383cf500ae05")
-		(property "Reference" "JP8"
-			(at 180.34 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 176.53 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
-			(at 176.784 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 176.53 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "12e13421-e05e-44c3-be99-cdf60693fa50")
-		)
-		(pin "1"
-			(uuid "9fa91bde-47d0-4774-9d72-f62b212a4238")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -17876,6 +17789,70 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Hardware:Standoff")
+		(at 251.46 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49c07099-cfdd-4373-85c3-2df1dd379eeb")
+		(property "Reference" "ST3"
+			(at 251.46 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Standoff"
+			(at 251.46 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Hardware:Standoff"
+			(at 251.46 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 251.46 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "ST3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 128.27 127 0)
 		(unit 1)
@@ -17937,109 +17914,6 @@
 			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Connector:microSD_PushPush")
-		(at 81.28 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4afeeb71-ef29-4aa2-b57e-c1ca53f6f657")
-		(property "Reference" "J5"
-			(at 74.93 158.75 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "microSD"
-			(at 81.28 186.69 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:microSD_External_Pin"
-			(at 81.28 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/a/d/6/0/8/microSD_Datasheet_msd-1-a.pdf"
-			(at 81.28 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro SD socket External Pin"
-			(at 81.28 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "CONN-16110"
-			(at 81.28 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "73c6788a-d26a-4931-b2f4-70229a523111")
-		)
-		(pin "5"
-			(uuid "c7d29f21-7fae-4c88-9fe2-787d2359d00f")
-		)
-		(pin "6"
-			(uuid "5cfc4280-6f56-4572-a0ef-7e04bd5690bb")
-		)
-		(pin "2"
-			(uuid "14b5d77b-d9a8-425a-902a-6a7b543755cd")
-		)
-		(pin "7"
-			(uuid "c8855e7b-8439-4421-8bec-cd4d52bbdaaa")
-		)
-		(pin "1"
-			(uuid "af16f6f2-6847-4177-b70a-bd9853c4e35c")
-		)
-		(pin "3"
-			(uuid "542de53d-1b07-440a-bd0d-66284b7b3080")
-		)
-		(pin "8"
-			(uuid "9c7d6955-e1ad-489a-afba-6af70173b98e")
-		)
-		(pin "9"
-			(uuid "43f86eaf-3686-4c52-a5e9-500bfa9a13a2")
-		)
-		(pin "4"
-			(uuid "38dcee97-7cc3-4344-ac02-69e27783698c")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -19112,6 +18986,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 31.75 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5de40e65-c11d-4219-a438-dade360a7253")
+		(property "Reference" "JP9"
+			(at 27.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 31.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 31.496 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 31.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c06f19b9-84a7-4e87-9e66-c2384cb4bc50")
+		)
+		(pin "1"
+			(uuid "fe64814d-ed01-49b3-85d1-f336b6c02882")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 41.91 120.65 0)
 		(unit 1)
@@ -19749,34 +19690,32 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 80.01 58.42 0)
-		(mirror y)
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 176.53 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6f18264a-f3eb-4268-aa15-ecd6890498c3")
-		(property "Reference" "JP14"
-			(at 83.82 57.15 0)
+		(uuid "6ef6554f-bf6a-4829-bc5d-2be19851f303")
+		(property "Reference" "JP21"
+			(at 180.34 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Measure"
-			(at 80.01 54.61 0)
+		(property "Value" "~"
+			(at 176.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 80.264 62.992 0)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 176.276 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19785,7 +19724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 66.04 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19794,7 +19733,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 80.01 68.58 0)
+			(at 176.53 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19803,153 +19742,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "189b7eb6-86db-469f-919e-a209ad9e2289")
+			(uuid "a414e3b5-8258-4583-9fce-ab59dd8de88b")
 		)
 		(pin "1"
-			(uuid "d4408cc9-f735-4b63-9346-023e9c7fabf9")
+			(uuid "bf5339e4-4c5c-4d0a-bc6a-800fc4884034")
 		)
 		(instances
 			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 80.01 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "711b91d3-c189-4f3f-95f4-624e2c2613e6")
-		(property "Reference" "JP19"
-			(at 83.82 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 80.264 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 80.01 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cbcc84ae-d2cb-4667-bdb5-564e447c0749")
-		)
-		(pin "1"
-			(uuid "1b9a6762-f658-4b4c-849d-0906e5f3314d")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 80.01 73.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72f198bb-3849-4461-a46f-c0e84094c1ef")
-		(property "Reference" "JP17"
-			(at 83.82 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 80.01 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 80.264 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 80.01 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd27d066-9304-4778-ac6d-051c07005065")
-		)
-		(pin "1"
-			(uuid "762cb7f7-3226-47ad-927d-962104a9697a")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP17")
+					(reference "JP21")
 					(unit 1)
 				)
 			)
@@ -20114,6 +19915,140 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 175.26 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79052777-5e97-4b49-aa1e-271ccfdb92c6")
+		(property "Reference" "JP22"
+			(at 179.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 175.006 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 175.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0506240c-32df-401b-a616-7e39117f4baf")
+		)
+		(pin "1"
+			(uuid "0fea662b-9d80-43b3-a08c-ec037234639d")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 80.01 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "797fa314-21b4-403f-9d98-9cd55d9c70ee")
+		(property "Reference" "JP17"
+			(at 83.82 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 79.756 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6ee63c6-cf5e-407d-9606-ff8f23f68b2f")
+		)
+		(pin "1"
+			(uuid "233f99d8-6c57-44e7-b64a-756240142c85")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP17")
 					(unit 1)
 				)
 			)
@@ -20397,34 +20332,32 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 80.01 50.8 0)
-		(mirror y)
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 80.01 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7eb81a15-d562-4c2f-b090-c5bacf07e634")
-		(property "Reference" "JP18"
-			(at 83.82 49.53 0)
+		(uuid "80881018-29da-42aa-af33-d3ef10837a82")
+		(property "Reference" "JP13"
+			(at 83.82 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Measure"
-			(at 80.01 46.99 0)
+		(property "Value" "~"
+			(at 80.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 80.264 55.372 0)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 79.756 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20433,7 +20366,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 58.42 0)
+			(at 80.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20442,7 +20375,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 80.01 60.96 0)
+			(at 80.01 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20451,15 +20384,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "820cbfba-ce22-4605-bbd1-2c77ca77fa6c")
+			(uuid "5904ff6e-6e77-4911-af44-86c22545495c")
 		)
 		(pin "1"
-			(uuid "8a8d58c3-6fe8-4b21-ad67-959dd0dac047")
+			(uuid "252722a7-621d-4e97-b5d2-c49c206a7bbd")
 		)
 		(instances
 			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP18")
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -21038,6 +20971,73 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 80.01 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e5ba6e6-1bde-424c-b7d0-ac42a9081a43")
+		(property "Reference" "JP16"
+			(at 83.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 79.756 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 80.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a58c44db-8b2a-4657-8ac2-3047bcd84f76")
+		)
+		(pin "1"
+			(uuid "c1de2353-fdaa-4d49-800d-c258e723adfc")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
 		(at 195.58 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21100,6 +21100,73 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 80.01 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98540d2f-d582-498f-ab73-ab965e4edd5d")
+		(property "Reference" "JP12"
+			(at 83.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 79.756 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "179a27c7-d5cf-4185-a472-47417c9f83f7")
+		)
+		(pin "1"
+			(uuid "e378506d-2076-4733-8016-5e8dd667fd12")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -21338,6 +21405,137 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 31.75 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a00b4a1-2162-436d-a5d4-5899bf20f844")
+		(property "Reference" "JP8"
+			(at 27.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 31.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 31.496 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 31.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f05a876c-c62f-4815-a453-07ae08b5f880")
+		)
+		(pin "1"
+			(uuid "0102d341-488c-4fa3-ad53-ce425328ada3")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Hardware:Standoff")
+		(at 255.27 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9afe821c-bb5c-4900-8ba1-57220272a35c")
+		(property "Reference" "ST4"
+			(at 255.27 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Standoff"
+			(at 255.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Hardware:Standoff"
+			(at 255.27 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 255.27 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "ST4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
 		(at 180.34 63.5 0)
 		(unit 1)
@@ -21399,6 +21597,73 @@
 			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 80.01 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9baec2fd-abdd-4676-9ee0-989b9769c9e9")
+		(property "Reference" "JP14"
+			(at 83.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 79.756 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 80.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cffe3902-7942-4408-b4b8-e2f1af47bf61")
+		)
+		(pin "1"
+			(uuid "5f14810a-e9c7-4124-9269-24045b02d963")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP14")
 					(unit 1)
 				)
 			)
@@ -21792,75 +22057,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 80.01 48.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a66599ef-d420-4dd9-a19d-6c868c2e4c94")
-		(property "Reference" "JP13"
-			(at 83.82 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 80.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 80.264 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 80.01 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a8b884e-9e21-4a39-ae4f-7ec076c7f417")
-		)
-		(pin "1"
-			(uuid "28107187-6fbc-43fe-a5e0-2e3f70ff89df")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Aesthetic:Fiducial_0.5mm")
 		(at 259.08 175.26 0)
 		(unit 1)
@@ -21925,8 +22121,111 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:microSD_Friction")
+		(at 81.28 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a829c7e8-4402-4ee1-9048-f154f89871fe")
+		(property "Reference" "J5"
+			(at 74.93 158.75 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "microSD_Friction"
+			(at 81.28 186.69 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:microSD_Friction_Fit_Common"
+			(at 82.55 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/1050270001_sd.pdf"
+			(at 82.55 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro SD socket External Pin"
+			(at 82.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-20948"
+			(at 81.28 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "49e5a2f4-0a60-40f0-9ae7-c15d0cb3ffea")
+		)
+		(pin "8"
+			(uuid "a063df62-85ab-4ab8-a801-971325bd8f2b")
+		)
+		(pin "2"
+			(uuid "71fc0750-1365-4be8-b431-6364f79ca440")
+		)
+		(pin "1"
+			(uuid "26ed387f-f984-41c8-bd29-5d17166763d6")
+		)
+		(pin "3"
+			(uuid "09e9de27-59c1-43c6-bc35-295eb4dc16a9")
+		)
+		(pin "9"
+			(uuid "6635c7e3-4a0a-4af0-b921-4d2f873185bc")
+		)
+		(pin "10"
+			(uuid "5634107d-811f-4fea-935d-6f85f2814f75")
+		)
+		(pin "5"
+			(uuid "7e05d338-6a7a-4c64-a709-ba370012fd15")
+		)
+		(pin "4"
+			(uuid "e6f1fcbd-817c-4f64-aee2-9c185d5c222b")
+		)
+		(pin "7"
+			(uuid "abfba430-fb3d-4953-9de8-d9faed75bbf0")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 254 175.26 0)
+		(at 246.38 175.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -21935,7 +22234,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8796517-9b68-421d-a796-c9ba469396d8")
 		(property "Reference" "H1"
-			(at 256.54 173.9899 0)
+			(at 248.92 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21945,7 +22244,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 256.54 176.5299 0)
+			(at 248.92 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21955,7 +22254,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
-			(at 254 175.26 0)
+			(at 246.38 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21964,7 +22263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 175.26 0)
+			(at 246.38 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21973,7 +22272,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 254 175.26 0)
+			(at 246.38 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21985,6 +22284,73 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 80.01 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9b7a14a-faa1-4442-9c58-1167c81a88c8")
+		(property "Reference" "JP15"
+			(at 83.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 79.756 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 80.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d2f44fe-b99c-458b-a9b4-d2f188684622")
+		)
+		(pin "1"
+			(uuid "9c0b9829-4318-4ef9-851d-9f93cff4a66a")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -22149,74 +22515,6 @@
 			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 31.75 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b214228c-2e06-49ea-b7d7-6412b42eadad")
-		(property "Reference" "JP10"
-			(at 27.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 31.75 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 31.496 35.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 31.75 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8dfd4437-89b3-4cf6-8bcf-702cd704cb99")
-		)
-		(pin "1"
-			(uuid "9b8c0e8e-3ba3-4f9f-bbdf-52c83cc8f3f0")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -22799,74 +23097,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 31.75 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c00a8599-1261-427c-ad6f-d1a523c78e95")
-		(property "Reference" "JP6"
-			(at 27.94 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 31.75 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 31.496 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 31.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5616024d-2208-4426-93bf-371e7e892c78")
-		)
-		(pin "1"
-			(uuid "7afc5b6d-20b3-4f30-b11e-e1e074aa0efd")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-PowerSymbol:5V")
 		(at 119.38 113.03 0)
 		(unit 1)
@@ -23002,7 +23232,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 254 180.34 0)
+		(at 246.38 180.34 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -23011,7 +23241,7 @@
 		(fields_autoplaced yes)
 		(uuid "c30216c8-2571-47c0-af01-41368da0c984")
 		(property "Reference" "H4"
-			(at 256.54 179.0699 0)
+			(at 248.92 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23021,7 +23251,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 256.54 181.6099 0)
+			(at 248.92 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23031,7 +23261,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
-			(at 254 180.34 0)
+			(at 246.38 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23040,7 +23270,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 180.34 0)
+			(at 246.38 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23049,7 +23279,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 254 180.34 0)
+			(at 246.38 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23068,7 +23298,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 238.76 78.74 0)
+		(at 234.95 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23077,7 +23307,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5d97963-8d03-47a8-be1c-001538290f37")
 		(property "Reference" "#PWR068"
-			(at 238.76 85.09 0)
+			(at 234.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23086,7 +23316,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 82.55 0)
+			(at 234.95 82.55 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -23095,7 +23325,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 78.74 0)
+			(at 234.95 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23104,7 +23334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 78.74 0)
+			(at 234.95 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23113,7 +23343,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 87.63 0)
+			(at 234.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23262,6 +23492,140 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 80.01 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8ee8999-7c69-4d82-b5ae-55853fc9d225")
+		(property "Reference" "JP10"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 79.756 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 80.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53ecad0b-0d38-48a2-bdac-2dc1386beb65")
+		)
+		(pin "1"
+			(uuid "a8c10fd3-a963-47ef-bf9a-223e68feeb76")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 176.53 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd18f515-c560-4f46-b233-8915fffc7db0")
+		(property "Reference" "JP20"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 176.276 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 176.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8cb7b29-4e28-418c-8a0c-be3432a577fa")
+		)
+		(pin "1"
+			(uuid "2a87db94-d707-4298-9bde-ae112995af33")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP20")
 					(unit 1)
 				)
 			)
@@ -23790,73 +24154,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
-		(at 175.26 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc37083c-2630-4b90-acca-11101db7a2c9")
-		(property "Reference" "JP22"
-			(at 179.07 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 175.26 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
-			(at 175.514 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 175.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a222aed-bf2c-4000-bb79-3b74075b64c6")
-		)
-		(pin "1"
-			(uuid "22c2e035-db68-45f4-9141-5bc3919ae647")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Aesthetic:Fiducial_0.5mm")
 		(at 262.89 175.26 0)
 		(unit 1)
@@ -24059,6 +24356,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 31.75 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "def2db14-622f-4eac-8eee-f53d1328fc35")
+		(property "Reference" "JP6"
+			(at 27.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 31.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 31.496 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 31.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b112e3f8-2605-4aed-87df-eda1f148c17e")
+		)
+		(pin "1"
+			(uuid "b8392165-ff22-45f7-b764-1ecea192109b")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 119.38 125.73 0)
 		(unit 1)
@@ -24120,144 +24484,6 @@
 			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 80.01 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e00cf3f7-853d-40a4-90aa-e2f9342aef66")
-		(property "Reference" "JP20"
-			(at 83.82 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 80.01 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 80.264 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 80.01 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "52049db8-04cc-47df-8aa4-117f88bc5b5a")
-		)
-		(pin "1"
-			(uuid "ddfa5df6-f0e4-4d09-bc76-a27da8ed503f")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 80.01 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0270f99-44b5-4648-bf62-c5cdfc01632d")
-		(property "Reference" "JP15"
-			(at 83.82 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 80.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 80.264 65.532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 80.01 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b40f4511-b986-42ad-9767-71fef96a2cf9")
-		)
-		(pin "1"
-			(uuid "916b13a3-3c62-4ae2-a15b-c7c82a2c1af3")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -24362,7 +24588,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 248.92 175.26 0)
+		(at 241.3 175.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -24371,7 +24597,7 @@
 		(fields_autoplaced yes)
 		(uuid "e09207f3-83e8-4402-992d-21c064758bf4")
 		(property "Reference" "H2"
-			(at 251.46 173.9899 0)
+			(at 243.84 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24381,7 +24607,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 251.46 176.5299 0)
+			(at 243.84 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24391,7 +24617,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
-			(at 248.92 175.26 0)
+			(at 241.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24400,7 +24626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 175.26 0)
+			(at 241.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24409,7 +24635,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 248.92 175.26 0)
+			(at 241.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24507,7 +24733,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 248.92 180.34 0)
+		(at 241.3 180.34 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -24516,7 +24742,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0bc5c37-97be-4851-8f71-6119bbd33f9c")
 		(property "Reference" "H3"
-			(at 251.46 179.0699 0)
+			(at 243.84 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24526,7 +24752,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 251.46 181.6099 0)
+			(at 243.84 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24536,7 +24762,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
-			(at 248.92 180.34 0)
+			(at 241.3 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24545,7 +24771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 180.34 0)
+			(at 241.3 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24554,7 +24780,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 248.92 180.34 0)
+			(at 241.3 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24572,34 +24798,32 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 80.01 45.72 0)
-		(mirror y)
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 31.75 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e296a162-29b7-409f-8886-80b495d1b1aa")
-		(property "Reference" "JP12"
-			(at 83.82 44.45 0)
+		(uuid "e2de74cf-47fb-4aaa-8d28-b126eff55aca")
+		(property "Reference" "JP5"
+			(at 27.94 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Measure"
-			(at 80.01 41.91 0)
+		(property "Value" "~"
+			(at 31.75 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 80.264 50.292 0)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 31.496 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24608,7 +24832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 53.34 0)
+			(at 31.75 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24617,7 +24841,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 80.01 55.88 0)
+			(at 31.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24626,15 +24850,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f7f54e90-e5e3-4791-a00d-91fca0f31d08")
+			(uuid "73a38b52-4bfd-4edb-8bd8-539e2bed8e44")
 		)
 		(pin "1"
-			(uuid "31adcca2-14fd-4426-80de-5e53049c84d4")
+			(uuid "b6888987-173d-4b7e-af73-532538c2cbc8")
 		)
 		(instances
 			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP12")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -24793,75 +25017,6 @@
 			(project "SparkFun_GNSS_HAT+"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 80.01 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7b56e58-b932-498c-8953-c1f4d155f102")
-		(property "Reference" "JP16"
-			(at 83.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 80.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 80.264 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 80.01 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "91ada5d0-7b35-48ec-a031-b4be497c52f4")
-		)
-		(pin "1"
-			(uuid "bec4f40c-ad8b-466c-bbc6-a5b5f9ec942e")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP16")
 					(unit 1)
 				)
 			)
@@ -25068,74 +25223,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 31.75 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f07fa461-8514-4689-815e-0b5e52e66997")
-		(property "Reference" "JP7"
-			(at 27.94 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Measure"
-			(at 31.75 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 31.496 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 31.75 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ccce873-2131-4fa2-8498-4c978f5fc0fa")
-		)
-		(pin "1"
-			(uuid "008d15cb-0811-462a-a97e-07cf45b5c3c7")
-		)
-		(instances
-			(project "SparkFun_GNSS_HAT+"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Regulator:STLQ015-3.3")
 		(at 128.27 148.59 0)
 		(unit 1)
@@ -25328,33 +25415,32 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Jumper:Jumper_Measure")
-		(at 31.75 33.02 0)
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 31.75 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f4dcd096-72c8-4d2c-9dfb-80c214a2ab7b")
-		(property "Reference" "JP11"
-			(at 27.94 31.75 0)
+		(uuid "f436f6da-1073-429b-bf8a-646bde2d8e7b")
+		(property "Reference" "JP4"
+			(at 27.94 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Measure"
-			(at 31.75 29.21 0)
+		(property "Value" "~"
+			(at 31.75 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Jumper:Jumper_2_PTH_SMD_Combo-NC"
-			(at 31.496 37.592 0)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 31.496 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25363,7 +25449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 40.64 0)
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25372,7 +25458,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 31.75 43.18 0)
+			(at 31.75 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25381,15 +25467,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "41c14011-d724-4f05-9bb0-61d980e6ccb1")
+			(uuid "2779a80e-06b7-45bd-9176-3ac08ae0cecf")
 		)
 		(pin "1"
-			(uuid "ac3b0413-81c6-4969-8740-18d4f0672163")
+			(uuid "4e863766-3112-41f7-9079-32783b60a36c")
 		)
 		(instances
-			(project "SparkFun_GNSS_HAT+"
+			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP11")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -25825,6 +25911,73 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
+		(at 31.75 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9ef9b44-f27c-46f1-b619-8526c2dd4f17")
+		(property "Reference" "JP7"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 31.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
+			(at 31.496 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 31.75 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "624897d3-2bff-41d6-8172-b5ab6e75e4ca")
+		)
+		(pin "1"
+			(uuid "17b29568-c46a-4a84-8726-d9359f706b5c")
+		)
+		(instances
+			(project "SparkFun_GNSS_HAT+"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
