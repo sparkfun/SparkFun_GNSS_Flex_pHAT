@@ -1,0 +1,21 @@
+2025-01-21 13:01:36,655 - cammer_logger - INFO - Running CAMmer
+2025-01-21 13:01:36,655 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2025-01-21 13:01:36,658 - cammer_logger - INFO - CAMMER START: 2025-01-21T13:01:36.658346
+2025-01-21 13:01:45,334 - cammer_logger - INFO - 
+START: 2025-01-21T13:01:36.658346
+Zones filled by user.
+Board saved by user.
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized-F_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized.GTL
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized-In1_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized.GL2
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized-In2_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized.GL3
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized-B_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized.GBL
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized-F_Paste.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized.GTP
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized-B_Paste.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized.GBP
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized-F_Silkscreen.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized.GTO
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized-B_Silkscreen.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized.GBO
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized-F_Mask.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized.GTS
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized-B_Mask.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized.GBS
+Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized-Edge_Cuts.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware/Production/SparkFun_GNSS_HAT+_panelized.GKO
+Drill report: C:\Users\pc235\Documents\GitHub\SparkFun_GNSS_HAT_Plus\Hardware\Production\drill_report.rpt
+
+2025-01-21 13:01:46,897 - cammer_logger - INFO - CAMmer complete

@@ -1,0 +1,13 @@
+2025-01-21 12:59:27,944 - panelizer_logger - INFO - Running Panelizer
+2025-01-21 12:59:27,948 - panelizer_logger - INFO - ['--panelx', '139.700000', '--panely', '190.500000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '2.540000', '--gapy', '0.000000', '--norightgap', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialstb']
+2025-01-21 12:59:27,951 - panelizer_logger - INFO - PANELIZER START: 2025-01-21T12:59:27.951004
+2025-01-21 12:59:38,330 - panelizer_logger - INFO - 
+START: 2025-01-21T12:59:27.951004
+Board saved by user.
+Zones filled by user.
+
+Board: C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_HAT_Plus/Hardware\Production\SparkFun_GNSS_HAT+_panelized.kicad_pcb
+Board dimensions: 65.00 x 56.75 mm.
+You can fit 2 x 3 boards on the panel.
+
+2025-01-21 12:59:40,022 - panelizer_logger - INFO - Panelizer complete
