@@ -41256,7 +41256,7 @@
 		)
 		(fp_arc
 			(start 1.5653 -2.590777)
-			(mid 1.834722 -2.479216)
+			(mid 1.834725 -2.479217)
 			(end 1.9463 -2.2098)
 			(stroke
 				(width 0.2032)
@@ -48512,7 +48512,7 @@
 		(format
 			(prefix "")
 			(suffix "")
-			(units 3)
+			(units 2)
 			(units_format 1)
 			(precision 1)
 		)
@@ -48545,7 +48545,7 @@
 		(format
 			(prefix "")
 			(suffix "")
-			(units 3)
+			(units 2)
 			(units_format 1)
 			(precision 1)
 		)
@@ -48579,7 +48579,7 @@
 		(format
 			(prefix "")
 			(suffix "")
-			(units 3)
+			(units 2)
 			(units_format 1)
 			(precision 1)
 		)
@@ -48612,7 +48612,7 @@
 		(format
 			(prefix "")
 			(suffix "")
-			(units 3)
+			(units 2)
 			(units_format 1)
 			(precision 1)
 		)
@@ -48646,7 +48646,7 @@
 		(format
 			(prefix "")
 			(suffix "")
-			(units 3)
+			(units 2)
 			(units_format 1)
 			(precision 2)
 		)
@@ -48712,7 +48712,7 @@
 		(format
 			(prefix "")
 			(suffix "")
-			(units 3)
+			(units 2)
 			(units_format 1)
 			(precision 1)
 		)
@@ -48745,7 +48745,7 @@
 		(format
 			(prefix "")
 			(suffix "")
-			(units 3)
+			(units 2)
 			(units_format 1)
 			(precision 1)
 		)
