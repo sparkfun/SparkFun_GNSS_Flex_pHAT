@@ -15923,6 +15923,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00be8c18-c6b5-4e69-aa3b-edd17cd3c8f3")
 		(property "Reference" "C9"
 			(at 25.4 180.3335 0)
@@ -16087,6 +16088,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "04a4373e-6955-4767-9bcd-6fd426fc9205")
 		(property "Reference" "C2"
 			(at 115.57 116.8335 0)
@@ -16385,6 +16387,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0b9f4659-5991-405a-975f-af907244ca59")
 		(property "Reference" "C11"
 			(at 132.08 63.4935 0)
@@ -16948,21 +16951,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "181e141a-7184-41a9-a948-524394d055cc")
 		(property "Reference" "J7"
-			(at 115.57 177.8 0)
+			(at 115.57 178.0931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SMA_Edge"
-			(at 111.76 180.34 0)
+			(at 115.57 180.6331 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:SMA_Edge"
@@ -17024,6 +17030,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1841b28d-2489-42a8-9ee3-7ea418c7c61d")
 		(property "Reference" "R1"
 			(at 248.92 53.3399 90)
@@ -17179,7 +17186,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 80.01 45.72 0)
+			(at 80.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17417,6 +17424,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "23c3762f-bf9d-4f97-aab9-b1aa71ee390e")
 		(property "Reference" "C14"
 			(at 187.96 63.4935 0)
@@ -17921,12 +17929,11 @@
 			)
 		)
 		(property "Value" "DF5A5.6LFU"
-			(at 57.15 191.1349 0)
+			(at 68.58 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT-353"
@@ -18208,7 +18215,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 80.01 71.12 0)
+			(at 80.01 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18665,7 +18672,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 80.01 68.58 0)
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19362,12 +19369,13 @@
 		(at 38.1 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "4cb7db85-aef2-47cd-b7a1-5a0c9e4a9865")
 		(property "Reference" "U1"
-			(at 31.75 104.14 0)
+			(at 40.2941 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19376,7 +19384,7 @@
 			)
 		)
 		(property "Value" "CAT24C512WI-GT3"
-			(at 41.91 121.92 0)
+			(at 40.2941 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19739,6 +19747,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "57bc4544-0a20-4d15-ac92-fa85c93a8fbb")
 		(property "Reference" "C15"
 			(at 203.2 63.5062 0)
@@ -20169,7 +20178,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 31.75 63.5 0)
+			(at 31.75 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20936,9 +20945,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6ef6554f-bf6a-4829-bc5d-2be19851f303")
 		(property "Reference" "JP21"
-			(at 171.45 121.92 0)
+			(at 171.45 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21238,9 +21248,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "79052777-5e97-4b49-aa1e-271ccfdb92c6")
 		(property "Reference" "JP22"
-			(at 170.18 138.43 0)
+			(at 170.18 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21315,7 +21326,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 80.01 63.5 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21478,7 +21489,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 262.89 179.07 0)
+			(at 262.89 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21506,21 +21517,21 @@
 		(dnp no)
 		(uuid "7d911ae5-9353-4866-a597-d5fa0b607438")
 		(property "Reference" "R10"
-			(at 224.79 135.8899 90)
+			(at 220.98 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "5.1k"
-			(at 224.79 138.4299 90)
+			(at 220.98 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
@@ -21659,7 +21670,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 80.01 53.34 0)
+			(at 80.01 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21784,9 +21795,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "82374553-ef4b-4fdd-b407-28b69ade7476")
 		(property "Reference" "TR1"
-			(at 246.38 125.73 0)
+			(at 246.38 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21794,7 +21806,7 @@
 			)
 		)
 		(property "Value" "RFCMF1220100M4T"
-			(at 246.38 128.27 0)
+			(at 246.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22003,21 +22015,21 @@
 		(dnp no)
 		(uuid "86a41b29-c0b6-47fd-8455-6f3d80d5ea3d")
 		(property "Reference" "R4"
-			(at 236.22 34.2899 90)
+			(at 233.68 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "3.6k"
-			(at 236.22 36.8299 90)
+			(at 232.41 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
@@ -22118,7 +22130,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 259.08 179.07 0)
+			(at 259.08 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22153,7 +22165,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 80.01 60.96 0)
+			(at 80.01 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22221,12 +22233,11 @@
 			)
 		)
 		(property "Value" "~"
-			(at 199.39 147.32 90)
+			(at 204.47 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
@@ -22353,7 +22364,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 80.01 48.26 0)
+			(at 80.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22652,7 +22663,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 31.75 60.96 0)
+			(at 31.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22850,7 +22861,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 80.01 55.88 0)
+			(at 80.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23409,7 +23420,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 259.08 175.26 0)
+			(at 259.08 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23547,7 +23558,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 80.01 58.42 0)
+			(at 80.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23605,6 +23616,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ac82c8e5-954d-4d5f-8178-2de0b2e8342f")
 		(property "Reference" "C4"
 			(at 115.57 146.0435 0)
@@ -23978,6 +23990,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b579182e-140b-4f33-82a2-d7eb4dd30d2f")
 		(property "Reference" "C5"
 			(at 138.43 147.3135 0)
@@ -24343,9 +24356,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bddbc33b-dc26-4e2b-8f3b-b43cf862dedb")
 		(property "Reference" "R13"
-			(at 176.53 138.43 0)
+			(at 176.53 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24353,7 +24367,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 176.53 140.97 0)
+			(at 176.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24841,7 +24855,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 80.01 43.18 0)
+			(at 80.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24901,7 +24915,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd18f515-c560-4f46-b233-8915fffc7db0")
 		(property "Reference" "JP20"
-			(at 171.45 105.41 0)
+			(at 171.45 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24909,7 +24923,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 171.45 106.68 0)
+			(at 171.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25033,6 +25047,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d0b41058-3b8b-4f69-bb5d-9b3c0d4d4f1c")
 		(property "Reference" "C3"
 			(at 138.43 114.2935 0)
@@ -25132,21 +25147,21 @@
 		(dnp no)
 		(uuid "d455e142-78ec-4e7d-bcce-59d0a94f5fef")
 		(property "Reference" "R2"
-			(at 236.22 53.3399 90)
+			(at 233.68 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "3.6k"
-			(at 236.22 55.8799 90)
+			(at 232.41 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
@@ -25208,9 +25223,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d5ed3fb0-2dbe-4cee-8df0-581a61c92865")
 		(property "Reference" "R14"
-			(at 176.53 157.48 0)
+			(at 176.53 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25218,7 +25234,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 176.53 160.02 0)
+			(at 176.53 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25738,7 +25754,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 262.89 175.26 0)
+			(at 262.89 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25911,7 +25927,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 31.75 55.88 0)
+			(at 31.75 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26221,7 +26237,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 31.75 30.48 0)
+			(at 31.75 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26361,7 +26377,7 @@
 		(fields_autoplaced yes)
 		(uuid "e70a51f9-7475-4f33-ba42-8542a7b9c1c5")
 		(property "Reference" "R12"
-			(at 177.8 121.92 0)
+			(at 177.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26369,7 +26385,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 177.8 124.46 0)
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26771,7 +26787,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 31.75 27.94 0)
+			(at 31.75 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26829,6 +26845,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f5931665-e48c-43ea-937b-f4aceca1c7a5")
 		(property "Reference" "R8"
 			(at 49.53 162.5599 90)
@@ -26974,6 +26991,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f8cef22a-a297-4d80-b959-c9ac2042f7c6")
 		(property "Reference" "C12"
 			(at 147.32 63.5062 0)
@@ -27273,7 +27291,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 31.75 58.42 0)
+			(at 31.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
