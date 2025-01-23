@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.1,
-          "height": 3.1,
-          "width": 3.1
+          "drill": 1.016,
+          "height": 1.8796,
+          "width": 1.8796
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -458,7 +458,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SparkFun_GNSS_HAT+.kicad_pro",
+    "filename": "SparkFun_GNSS_pHAT.kicad_pro",
     "version": 1
   },
   "net_settings": {
