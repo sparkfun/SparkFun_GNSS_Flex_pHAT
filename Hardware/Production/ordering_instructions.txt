@@ -10,5 +10,5 @@ Thickness: 1.6mm
 Inner Copper Weight: 0.5oz
 Outer Copper Weight: 1oz
 Minimum track width: 0.15mm (6.00mil)
-Minimum via drill: 0.30mm (11.81mil)
+Minimum via drill: 0.30mm (12.00mil)
 No Clean Process

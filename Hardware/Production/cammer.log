@@ -1,21 +1,32 @@
-2025-01-23 13:13:12,679 - cammer_logger - INFO - Running CAMmer
-2025-01-23 13:13:12,679 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
-2025-01-23 13:13:12,679 - cammer_logger - INFO - CAMMER START: 2025-01-23T13:13:12.679160
-2025-01-23 13:13:21,383 - cammer_logger - INFO - 
-START: 2025-01-23T13:13:12.679160
+2025-01-29 16:03:06,736 - cammer_logger - INFO - Running CAMmer
+2025-01-29 16:03:06,736 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2025-01-29 16:03:06,736 - cammer_logger - INFO - CAMMER START: 2025-01-29T16:03:06.736616
+2025-01-29 16:03:17,546 - cammer_logger - INFO - 
+START: 2025-01-29T16:03:06.736616
 Zones filled by user.
 Board saved by user.
+Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GTL
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-F_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GTL
+Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GL2
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-In1_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GL2
+Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GL3
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-In2_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GL3
+Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GBL
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-B_Cu.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GBL
+Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GTP
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-F_Paste.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GTP
+Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GBP
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-B_Paste.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GBP
+Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GTO
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-F_Silkscreen.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GTO
+Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GBO
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-B_Silkscreen.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GBO
+Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GTS
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-F_Mask.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GTS
+Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GBS
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-B_Mask.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GBS
+Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GKO
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-Edge_Cuts.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GKO
 Drill report: C:\Users\pc235\Documents\GitHub\SparkFun_GNSS_pHAT\Hardware\Production\drill_report.rpt
 
-2025-01-23 13:13:23,288 - cammer_logger - INFO - CAMmer complete
+2025-01-29 16:03:19,573 - cammer_logger - INFO - CAMmer complete

@@ -1,4 +1,4 @@
-25145591022714856
+25112513413572442
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91952,13 +91952,6 @@ SparkFun Locking Friction Fit PTH Male headers
 4
 4
 SparkFun-Connector
-1x04_RA_SMD
-
-SparkFun Right angle male connector 4-pin
-0
-4
-4
-SparkFun-Connector
 1x04_Solder_Pads
 
 SparkFun
@@ -91969,13 +91962,6 @@ SparkFun-Connector
 1x05
 
 SparkFun
-0
-5
-5
-SparkFun-Connector
-1x05_2.0mm
-
-SparkFun Plated Through Hole 5 Pin 2mm
 0
 5
 5
@@ -92043,13 +92029,6 @@ SparkFun
 7
 7
 SparkFun-Connector
-1x07_2.0mm
-
-SparkFun Plated Through Hole 7 Pin 2mm
-0
-7
-7
-SparkFun-Connector
 1x07_2.0mm_SMD_Pin1RightDown
 
 SparkFun 2mm 7 pin
@@ -92102,13 +92081,6 @@ SparkFun-Connector
 1x10
 
 SparkFun
-0
-10
-10
-SparkFun-Connector
-1x10_2.0mm
-
-SparkFun Plated Through Hole 10 Pin 2mm
 0
 10
 10
@@ -92393,13 +92365,6 @@ SparkFun
 133
 53
 SparkFun-Connector
-2x03_AVR_ISP
-
-SparkFun Small SMD test points that can be used for AVR ISP programming
-0
-6
-6
-SparkFun-Connector
 2x03_P2.00mm
 Through hole straight pin header, 2x03, 2.00mm pitch, double rows
 SparkFun Through hole pin header THT 2x03 2.00mm double row
@@ -92603,21 +92568,14 @@ SparkFun
 4
 4
 SparkFun-Connector
-JST_SMD_1.0mm-3
-
-SparkFun
-0
-5
-5
-SparkFun-Connector
-JST_SMD_1.0mm-4
+JST_SMD_1.0mm-4_RA
 
 SparkFun
 0
 6
 6
 SparkFun-Connector
-JST_SMD_1.0mm-4_StressRelief
+JST_SMD_1.0mm-4_RA_StressRelief
 
 SparkFun
 0
@@ -92631,20 +92589,6 @@ SparkFun
 6
 6
 SparkFun-Connector
-JST_SMD_1.0mm-5
-
-SparkFun
-0
-7
-7
-SparkFun-Connector
-JST_SMD_1.0mm-6
-
-SparkFun
-0
-8
-8
-SparkFun-Connector
 JST_SMD_1.0mm-6_Vertical
 https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
 SparkFun
@@ -92652,54 +92596,19 @@ SparkFun
 8
 8
 SparkFun-Connector
-JST_SMD_1.0mm-7
-
-SparkFun
-0
-9
-9
-SparkFun-Connector
-JST_SMD_1.0mm-8
-
-SparkFun
-0
-10
-10
-SparkFun-Connector
-JST_SMD_1.0mm-9
-
-SparkFun
-0
-11
-11
-SparkFun-Connector
-JST_SMD_1.0mm-10
-
-SparkFun
-0
-12
-12
-SparkFun-Connector
-JST_SMD_1.0mm-12
+JST_SMD_1.0mm-12_RA
 
 SparkFun
 0
 14
 14
 SparkFun-Connector
-JST_SMD_1.0mm-14
+JST_SMD_1.0mm-14_RA
 
 SparkFun
 0
 16
 16
-SparkFun-Connector
-JST_SMD_1.25mm-3_Locking
-
-SparkFun
-0
-5
-5
 SparkFun-Connector
 JST_SMD_1.25mm-4_Locking
 
@@ -92708,47 +92617,12 @@ SparkFun
 6
 6
 SparkFun-Connector
-JST_SMD_1.25mm-5_Locking
-
-SparkFun
-0
-7
-7
-SparkFun-Connector
 JST_SMD_1.25mm-6_Locking
 
 SparkFun
 0
 8
 8
-SparkFun-Connector
-JST_SMD_1.25mm-7_Locking
-
-SparkFun
-0
-9
-9
-SparkFun-Connector
-JST_SMD_1.25mm-8_Locking
-
-SparkFun
-0
-10
-10
-SparkFun-Connector
-JST_SMD_1.25mm-9_Locking
-
-SparkFun
-0
-11
-11
-SparkFun-Connector
-JST_SMD_1.25mm-10_Locking
-
-SparkFun
-0
-12
-12
 SparkFun-Connector
 JST_SMD_2.0mm-2
 
@@ -93883,13 +93757,6 @@ SparkFun Wide SOIC 8 0.206" 5.23mm
 0
 8
 8
-SparkFun-Semiconductor-Standard
-SO-14
-
-SparkFun SOIC 14
-0
-14
-14
 SparkFun-Semiconductor-Standard
 SO-16
 
