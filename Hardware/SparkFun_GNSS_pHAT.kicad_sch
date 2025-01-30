@@ -1874,7 +1874,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Basic 0.1\" PTH"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -2100,7 +2100,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "BF030-20A-B1-0360-0277-0600-LB 2x10 2.0mm Header"
+			(property "Description" "2x10 2.0mm Header with pegs"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -3170,7 +3170,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "BF030-20A-B1-0360-0277-0600-LB 2x10 2.0mm Header"
+			(property "Description" "2x10 2.0mm Header with pegs"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -4222,7 +4222,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Vertical"
+			(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Vertical_Black"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -7585,9 +7585,9 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Hardware:Standoff_Raspberry-Pi_HAT+"
+		(symbol "SparkFun-Hardware:Standoff_Hole-2.75mm_Clearance-1.625mm"
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "ST"
 				(at 0 2.54 0)
@@ -7607,7 +7607,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "SparkFun-Hardware:Standoff_Raspberry-Pi_HAT+"
+			(property "Footprint" "SparkFun-Hardware:Standoff_Hole-2.75mm_Clearance-1.625mm"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -7634,7 +7634,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun stand off raspberry pi"
+			(property "ki_keywords" "SparkFun stand off Raspberry Pi RPi HAT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7652,7 +7652,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Standoff_Raspberry-Pi_HAT+_1_1"
+			(symbol "Standoff_Hole-2.75mm_Clearance-1.625mm_1_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
@@ -18217,11 +18217,11 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Hardware:Standoff_Raspberry-Pi_HAT+")
+		(lib_id "SparkFun-Hardware:Standoff_Hole-2.75mm_Clearance-1.625mm")
 		(at 243.84 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18244,7 +18244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Hardware:Standoff_Raspberry-Pi_HAT+"
+		(property "Footprint" "SparkFun-Hardware:Standoff_Hole-2.75mm_Clearance-1.625mm"
 			(at 243.84 182.88 0)
 			(effects
 				(font
@@ -20345,7 +20345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Vertical"
+		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Vertical_Black"
 			(at 246.38 85.09 0)
 			(effects
 				(font
@@ -22253,11 +22253,11 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Hardware:Standoff_Raspberry-Pi_HAT+")
+		(lib_id "SparkFun-Hardware:Standoff_Hole-2.75mm_Clearance-1.625mm")
 		(at 243.84 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -22280,7 +22280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Hardware:Standoff_Raspberry-Pi_HAT+"
+		(property "Footprint" "SparkFun-Hardware:Standoff_Hole-2.75mm_Clearance-1.625mm"
 			(at 243.84 186.69 0)
 			(effects
 				(font
@@ -22664,7 +22664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BF030-20A-B1-0360-0277-0600-LB 2x10 2.0mm Header"
+		(property "Description" "2x10 2.0mm Header with pegs"
 			(at 142.24 62.23 0)
 			(effects
 				(font
@@ -25839,7 +25839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BF030-20A-B1-0360-0277-0600-LB 2x10 2.0mm Header"
+		(property "Description" "2x10 2.0mm Header with pegs"
 			(at 200.66 62.23 0)
 			(effects
 				(font
@@ -26660,11 +26660,11 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Hardware:Standoff_Raspberry-Pi_HAT+")
+		(lib_id "SparkFun-Hardware:Standoff_Hole-2.75mm_Clearance-1.625mm")
 		(at 247.65 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -26687,7 +26687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Hardware:Standoff_Raspberry-Pi_HAT+"
+		(property "Footprint" "SparkFun-Hardware:Standoff_Hole-2.75mm_Clearance-1.625mm"
 			(at 247.65 186.69 0)
 			(effects
 				(font
@@ -28033,7 +28033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Basic 0.1\" PTH"
 			(at 90.17 102.87 0)
 			(effects
 				(font
@@ -30854,11 +30854,11 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Hardware:Standoff_Raspberry-Pi_HAT+")
+		(lib_id "SparkFun-Hardware:Standoff_Hole-2.75mm_Clearance-1.625mm")
 		(at 247.65 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -30881,7 +30881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Hardware:Standoff_Raspberry-Pi_HAT+"
+		(property "Footprint" "SparkFun-Hardware:Standoff_Hole-2.75mm_Clearance-1.625mm"
 			(at 247.65 182.88 0)
 			(effects
 				(font

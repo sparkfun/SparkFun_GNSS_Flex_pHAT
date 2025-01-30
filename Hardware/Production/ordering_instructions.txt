@@ -1,5 +1,5 @@
 Ordering Instructions:
-Panel dimensions: 149.28 x 184.95 mm.
+Panel dimensions: 149.28 x 127.70 mm.
 Controlled Impedance: JLC7628
 Material: TG155
 Solder Mask: Red
