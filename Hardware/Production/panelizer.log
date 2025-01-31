@@ -1,8 +1,8 @@
-2025-01-31 11:00:14,431 - panelizer_logger - INFO - Running Panelizer
-2025-01-31 11:00:14,434 - panelizer_logger - INFO - ['--panelx', '190.500000', '--panely', '139.700000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '2.540000', '--gapy', '0.000000', '--norightgap', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialstb']
-2025-01-31 11:00:14,437 - panelizer_logger - INFO - PANELIZER START: 2025-01-31T11:00:14.437630
-2025-01-31 11:00:26,098 - panelizer_logger - INFO - 
-START: 2025-01-31T11:00:14.437630
+2025-01-31 12:32:36,246 - panelizer_logger - INFO - Running Panelizer
+2025-01-31 12:32:36,249 - panelizer_logger - INFO - ['--panelx', '190.500000', '--panely', '139.700000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '2.540000', '--gapy', '0.000000', '--norightgap', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialstb']
+2025-01-31 12:32:36,251 - panelizer_logger - INFO - PANELIZER START: 2025-01-31T12:32:36.251957
+2025-01-31 12:32:50,451 - panelizer_logger - INFO - 
+START: 2025-01-31T12:32:36.251957
 Board saved by user.
 Zones filled by user.
 
@@ -10,4 +10,4 @@ Board: C:\Users\pc235\Documents\GitHub\SparkFun_GNSS_pHAT\Hardware\Production\Sp
 Board dimensions: 65.00 x 56.75 mm.
 You can fit 2 x 2 boards on the panel.
 
-2025-01-31 11:00:28,032 - panelizer_logger - INFO - Panelizer complete
+2025-01-31 12:32:51,793 - panelizer_logger - INFO - Panelizer complete

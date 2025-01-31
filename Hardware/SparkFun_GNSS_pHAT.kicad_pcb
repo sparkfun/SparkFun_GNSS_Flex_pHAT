@@ -908,7 +908,7 @@
 				)
 			)
 		)
-		(property "Value" "3.6k"
+		(property "Value" "3.9k"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "f1fa2738-0d7a-4f2c-8f94-d9a48446e986")
@@ -959,7 +959,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-08417"
+		(property "PROD_ID" "RES-08701"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34364,7 +34364,7 @@
 		)
 		(fp_arc
 			(start 4.7948 29.512)
-			(mid 3.88034 31.668726)
+			(mid 3.880341 31.668725)
 			(end 1.6948 32.512)
 			(stroke
 				(width 0.127)
@@ -35248,7 +35248,7 @@
 				)
 			)
 		)
-		(property "Value" "3.6k"
+		(property "Value" "3.9k"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "174ba159-943b-4e6f-80fc-5ad35cdc5cb0")
@@ -35299,7 +35299,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-08417"
+		(property "PROD_ID" "RES-08701"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36177,7 +36177,7 @@
 				)
 			)
 		)
-		(property "Value" "3.6k"
+		(property "Value" "3.9k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "428eeadb-293f-4f2c-8a70-d8dc4d491fd6")
@@ -36228,7 +36228,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-08417"
+		(property "PROD_ID" "RES-08701"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36394,7 +36394,7 @@
 				)
 			)
 		)
-		(property "Value" "3.6k"
+		(property "Value" "3.9k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "6c760f24-0d6a-46b7-81a9-750ec9f34dfb")
@@ -36445,7 +36445,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-08417"
+		(property "PROD_ID" "RES-08701"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42200,7 +42200,7 @@
 		)
 		(fp_arc
 			(start 1.5653 -2.590777)
-			(mid 1.834722 -2.479216)
+			(mid 1.834725 -2.479217)
 			(end 1.9463 -2.2098)
 			(stroke
 				(width 0.2032)
@@ -45563,7 +45563,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)
@@ -46521,7 +46521,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)
@@ -46840,7 +46840,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)
@@ -47985,7 +47985,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)
@@ -48321,7 +48321,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)
@@ -49112,7 +49112,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)
@@ -49598,7 +49598,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)
@@ -50489,7 +50489,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)
@@ -51008,7 +51008,7 @@
 		)
 		(fp_arc
 			(start 0.762 -1.016)
-			(mid 1.08529 -0.88209)
+			(mid 1.085289 -0.882089)
 			(end 1.2192 -0.5588)
 			(stroke
 				(width 0.1524)

@@ -1,8 +1,8 @@
-2025-01-31 11:01:10,030 - cammer_logger - INFO - Running CAMmer
-2025-01-31 11:01:10,030 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
-2025-01-31 11:01:10,031 - cammer_logger - INFO - CAMMER START: 2025-01-31T11:01:10.031724
-2025-01-31 11:01:19,338 - cammer_logger - INFO - 
-START: 2025-01-31T11:01:10.031724
+2025-01-31 12:33:54,634 - cammer_logger - INFO - Running CAMmer
+2025-01-31 12:33:54,634 - cammer_logger - INFO - ['-l', 'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2025-01-31 12:33:54,635 - cammer_logger - INFO - CAMMER START: 2025-01-31T12:33:54.635627
+2025-01-31 12:34:03,031 - cammer_logger - INFO - 
+START: 2025-01-31T12:33:54.635627
 Zones filled by user.
 Board saved by user.
 Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GTL
@@ -29,4 +29,4 @@ Deleting existing C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Pr
 Renaming C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized-Edge_Cuts.gbr to C:/Users/pc235/Documents/GitHub/SparkFun_GNSS_pHAT/Hardware/Production/SparkFun_GNSS_pHAT_panelized.GKO
 Drill report: C:\Users\pc235\Documents\GitHub\SparkFun_GNSS_pHAT\Hardware\Production\drill_report.rpt
 
-2025-01-31 11:01:22,275 - cammer_logger - INFO - CAMmer complete
+2025-01-31 12:34:05,393 - cammer_logger - INFO - CAMmer complete
