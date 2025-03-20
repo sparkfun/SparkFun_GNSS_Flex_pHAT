@@ -1,4 +1,4 @@
-25112513413572442
+25210184690938400
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91168,7 +91168,7 @@ SparkFun
 0
 0
 SparkFun-Aesthetic
-POLARITY_MARKING_CENTER_POSITIVE
+Polarity_Marking_Center_Positive
 
 SparkFun
 0
@@ -91196,7 +91196,21 @@ SparkFun RPi HAT+
 0
 0
 SparkFun-Aesthetic
+RedBoard_Logo
+
+SparkFun RedBoard Logo
+0
+0
+0
+SparkFun-Aesthetic
 SparkFun_Flame_1.5mm
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
+SparkFun_Flame_1.5mm_Mask
 
 SparkFun Logo
 0
@@ -91210,7 +91224,21 @@ SparkFun Logo
 0
 0
 SparkFun-Aesthetic
+SparkFun_Flame_1mm_Mask
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
 SparkFun_Flame_2.5mm
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
+SparkFun_Flame_2.5mm_Mask
 
 SparkFun Logo
 0
@@ -91224,7 +91252,21 @@ SparkFun Logo
 0
 0
 SparkFun-Aesthetic
+SparkFun_Flame_2mm_Mask
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
 SparkFun_Flame_3mm
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
+SparkFun_Flame_3mm_Mask
 
 SparkFun Logo
 0
@@ -91238,7 +91280,21 @@ SparkFun Logo
 0
 0
 SparkFun-Aesthetic
+SparkFun_Flame_4mm_Mask
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
 SparkFun_Flame_5mm
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
+SparkFun_Flame_5mm_Mask
 
 SparkFun Logo
 0
@@ -91252,7 +91308,21 @@ SparkFun Logo
 0
 0
 SparkFun-Aesthetic
+SparkFun_Flame_6mm_Mask
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
 SparkFun_Flame_7mm
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
+SparkFun_Flame_7mm_Mask
 
 SparkFun Logo
 0
@@ -91266,7 +91336,21 @@ SparkFun Logo
 0
 0
 SparkFun-Aesthetic
+SparkFun_Flame_8mm_Mask
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
 SparkFun_Flame_9mm
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
+SparkFun_Flame_9mm_Mask
 
 SparkFun Logo
 0
@@ -91280,7 +91364,21 @@ SparkFun Logo
 0
 0
 SparkFun-Aesthetic
+SparkFun_Flame_10mm_Mask
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
 SparkFun_Flame_12.5mm
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
+SparkFun_Flame_12.5mm_Mask
 
 SparkFun Logo
 0
@@ -91294,6 +91392,13 @@ SparkFun Logo
 0
 0
 SparkFun-Aesthetic
+SparkFun_Flame_15mm_Mask
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
 SparkFun_Flame_20mm
 
 SparkFun Logo
@@ -91301,7 +91406,21 @@ SparkFun Logo
 0
 0
 SparkFun-Aesthetic
+SparkFun_Flame_20mm_Mask
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
 SparkFun_Flame_25mm
+
+SparkFun Logo
+0
+0
+0
+SparkFun-Aesthetic
+SparkFun_Flame_25mm_Mask
 
 SparkFun Logo
 0
@@ -91679,6 +91798,20 @@ SparkFun
 24
 24
 SparkFun-Board
+Qwiic_1U
+
+SparkFun Qwiic 1 inch Outline
+0
+0
+0
+SparkFun-Board
+RedBoard
+
+
+0
+32
+30
+SparkFun-Board
 ThingPlus
 
 SparkFun
@@ -91896,6 +92029,13 @@ SparkFun
 1
 1
 SparkFun-Connector
+1x01_0.4in
+
+SparkFun Large PTH hole for high currents
+0
+1
+1
+SparkFun-Connector
 1x01_Castellated
 
 SparkFun
@@ -91952,6 +92092,13 @@ SparkFun Locking Friction Fit PTH Male headers
 4
 4
 SparkFun-Connector
+1x04_RA_SMD
+
+SparkFun Right angle male connector 4-pin
+0
+4
+4
+SparkFun-Connector
 1x04_Solder_Pads
 
 SparkFun
@@ -91962,6 +92109,13 @@ SparkFun-Connector
 1x05
 
 SparkFun
+0
+5
+5
+SparkFun-Connector
+1x05_2.0mm
+
+SparkFun Plated Through Hole 5 Pin 2mm
 0
 5
 5
@@ -91987,6 +92141,13 @@ SparkFun Locking Friction Fit PTH Male headers
 5
 5
 SparkFun-Connector
+1x05_Populated
+
+SparkFun
+0
+5
+5
+SparkFun-Connector
 1x05_SMD_1x1mm_1
 
 SparkFun
@@ -92008,6 +92169,27 @@ SparkFun Locking Friction Fit PTH Male headers
 6
 6
 SparkFun-Connector
+1x06_SMD_Combined
+
+SparkFun Surface mounted socket strip SMD 1x06 2.54mm single row
+0
+6
+6
+SparkFun-Connector
+1x06_SMD_Pin1RightDown
+
+SparkFun Surface mounted socket strip SMD 1x06 2.54mm single row style1 pin1 right
+0
+6
+6
+SparkFun-Connector
+1x06_SMD_Pin1RightDown_Passthru
+
+SparkFun Surface mounted socket strip SMD 1x06 2.54mm single row style1 pin1 right
+0
+6
+6
+SparkFun-Connector
 1x06_SMD_RA_Female
 
 SparkFun SMD Right Angle 6-pin
@@ -92025,6 +92207,13 @@ SparkFun-Connector
 1x07
 
 SparkFun
+0
+7
+7
+SparkFun-Connector
+1x07_2.0mm
+
+SparkFun Plated Through Hole 7 Pin 2mm
 0
 7
 7
@@ -92057,7 +92246,21 @@ SparkFun Locking Friction Fit PTH Male headers
 8
 8
 SparkFun-Connector
-1x08_SMD_Pin1Right_Passthru
+1x08_SMD_Combined
+
+SparkFun Surface mounted socket strip SMD 1x08 2.54mm single row
+0
+8
+8
+SparkFun-Connector
+1x08_SMD_Pin1RightDown
+
+SparkFun Surface mounted socket strip SMD 1x08 2.54mm single row style1 pin1 right
+0
+8
+8
+SparkFun-Connector
+1x08_SMD_Pin1RightDown_Passthru
 
 SparkFun Surface mounted socket strip SMD 1x08 2.54mm single row style1 pin1 right
 0
@@ -92078,6 +92281,13 @@ SparkFun Locking Friction Fit PTH Male headers
 9
 9
 SparkFun-Connector
+1x09_Populated
+
+SparkFun
+0
+9
+9
+SparkFun-Connector
 1x10
 
 SparkFun
@@ -92085,9 +92295,37 @@ SparkFun
 10
 10
 SparkFun-Connector
+1x10_2.0mm
+
+SparkFun Plated Through Hole 10 Pin 2mm
+0
+10
+10
+SparkFun-Connector
 1x10_Locking
 See our tutorial: https://www.sparkfun.com/tutorials/114
 SparkFun Locking Friction Fit PTH Male headers
+0
+10
+10
+SparkFun-Connector
+1x10_SMD_Combined
+
+SparkFun Surface mounted socket strip SMD 1x10 2.54mm single row 
+0
+10
+10
+SparkFun-Connector
+1x10_SMD_Pin1RightDown
+
+SparkFun Surface mounted socket strip SMD 1x10 2.54mm single row style1 pin1 right
+0
+10
+10
+SparkFun-Connector
+1x10_SMD_Pin1RightDown_Passthru
+
+SparkFun Surface mounted socket strip SMD 1x10 2.54mm single row style1 pin1 right
 0
 10
 10
@@ -92253,6 +92491,13 @@ SparkFun Locking Friction Fit PTH Male headers
 20
 20
 SparkFun-Connector
+1x20_SMD_Pin1RightUp
+
+SparkFun Surface mounted socket strip SMD 1x20 2.54mm single row style1 pin1 left
+0
+20
+20
+SparkFun-Connector
 1x21_Locking
 See our tutorial: https://www.sparkfun.com/tutorials/114
 SparkFun Locking Friction Fit PTH Male headers
@@ -92365,6 +92610,13 @@ SparkFun
 133
 53
 SparkFun-Connector
+2x03_AVR_ISP
+
+SparkFun Small SMD test points that can be used for AVR ISP programming
+0
+6
+6
+SparkFun-Connector
 2x03_P2.00mm
 Through hole straight pin header, 2x03, 2.00mm pitch, double rows
 SparkFun Through hole pin header THT 2x03 2.00mm double row
@@ -92400,14 +92652,14 @@ SparkFun
 10
 10
 SparkFun-Connector
-2x10_2.0mm_Female_Socket_Vertical_SMD
+2x10_2.0mm_Female_Socket_Vertical_SMD_Pegs
 
 SparkFun
 0
 20
 20
 SparkFun-Connector
-2x10_2.0mm_Male_Pins_Vertical_SMD
+2x10_2.0mm_Male_Pins_Vertical_SMD_Pegs
 
 SparkFun
 0
@@ -92456,6 +92708,41 @@ SparkFun Audio Jack 3.mm TRRS
 4
 4
 SparkFun-Connector
+Barrel_Jack_PTH
+<h3>DC Barrel Power Jack/Connector PTH</h3>{return}5.5mm jack, 2.1mm center pole diameter{return}<p>Specifications:{return}<ul><li>Pin count: 3</li>{return}</ul></p>{return}<p><a href="https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf">Datasheet referenced for footprint</a></p>{return}<p>Example device(s):{return}<ul><li>POWER_JACK</li>{return}</ul></p>
+SparkFun
+0
+3
+3
+SparkFun-Connector
+Barrel_Jack_PTH_Slot
+
+SparkFun
+0
+3
+3
+SparkFun-Connector
+Barrel_Jack_PTH_Slot_Overhang
+
+SparkFun
+0
+3
+3
+SparkFun-Connector
+Barrel_Jack_SMD
+
+SparkFun
+0
+4
+3
+SparkFun-Connector
+Barrel_Jack_SMD_Overpaste_TOE
+
+SparkFun
+0
+4
+3
+SparkFun-Connector
 FFC_0.3mm-15
 
 SparkFun
@@ -92483,6 +92770,13 @@ SparkFun Raspberry Pi PCIe Pinout
 0
 18
 18
+SparkFun-Connector
+FPC_0.5mm-22_Vertical
+
+
+0
+26
+23
 SparkFun-Connector
 FPC_0.5mm-24
 24 Pin FPC 0.5mm with contacts both sides.
@@ -92568,26 +92862,61 @@ SparkFun
 4
 4
 SparkFun-Connector
-JST_SMD_1.0mm-4_RA
+JST_SMD_1.0mm-3
+
+SparkFun
+0
+5
+5
+SparkFun-Connector
+JST_SMD_1.0mm-3_Vertical
+
+SparkFun
+0
+5
+5
+SparkFun-Connector
+JST_SMD_1.0mm-4
 
 SparkFun
 0
 6
 6
 SparkFun-Connector
-JST_SMD_1.0mm-4_RA_StressRelief
+JST_SMD_1.0mm-4_Black
+
+SparkFun Qwiic Connector
+0
+6
+6
+SparkFun-Connector
+JST_SMD_1.0mm-4_StressRelief
 
 SparkFun
 0
 6
 6
 SparkFun-Connector
-JST_SMD_1.0mm-4_Vertical
+JST_SMD_1.0mm-4_Vertical_Black
 
-SparkFun
+SparkFun Qwiic Connector
 0
 6
 6
+SparkFun-Connector
+JST_SMD_1.0mm-5
+
+SparkFun
+0
+7
+7
+SparkFun-Connector
+JST_SMD_1.0mm-6
+
+SparkFun
+0
+8
+8
 SparkFun-Connector
 JST_SMD_1.0mm-6_Vertical
 https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
@@ -92596,19 +92925,54 @@ SparkFun
 8
 8
 SparkFun-Connector
-JST_SMD_1.0mm-12_RA
+JST_SMD_1.0mm-7
+
+SparkFun
+0
+9
+9
+SparkFun-Connector
+JST_SMD_1.0mm-8
+
+SparkFun
+0
+10
+10
+SparkFun-Connector
+JST_SMD_1.0mm-9
+
+SparkFun
+0
+11
+11
+SparkFun-Connector
+JST_SMD_1.0mm-10
+
+SparkFun
+0
+12
+12
+SparkFun-Connector
+JST_SMD_1.0mm-12
 
 SparkFun
 0
 14
 14
 SparkFun-Connector
-JST_SMD_1.0mm-14_RA
+JST_SMD_1.0mm-14
 
 SparkFun
 0
 16
 16
+SparkFun-Connector
+JST_SMD_1.25mm-3_Locking
+
+SparkFun
+0
+5
+5
 SparkFun-Connector
 JST_SMD_1.25mm-4_Locking
 
@@ -92617,12 +92981,47 @@ SparkFun
 6
 6
 SparkFun-Connector
+JST_SMD_1.25mm-5_Locking
+
+SparkFun
+0
+7
+7
+SparkFun-Connector
 JST_SMD_1.25mm-6_Locking
 
 SparkFun
 0
 8
 8
+SparkFun-Connector
+JST_SMD_1.25mm-7_Locking
+
+SparkFun
+0
+9
+9
+SparkFun-Connector
+JST_SMD_1.25mm-8_Locking
+
+SparkFun
+0
+10
+10
+SparkFun-Connector
+JST_SMD_1.25mm-9_Locking
+
+SparkFun
+0
+11
+11
+SparkFun-Connector
+JST_SMD_1.25mm-10_Locking
+
+SparkFun
+0
+12
+12
 SparkFun-Connector
 JST_SMD_2.0mm-2
 
@@ -92681,41 +93080,6 @@ SparkFun Magnetic Mag Jack
 18
 SparkFun-Connector
 PokeHome-2
-
-SparkFun
-0
-4
-4
-SparkFun-Connector
-Power_Jack_PTH
-<h3>DC Barrel Power Jack/Connector PTH</h3>{return}5.5mm jack, 2.1mm center pole diameter{return}<p>Specifications:{return}<ul><li>Pin count: 3</li>{return}</ul></p>{return}<p><a href="https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf">Datasheet referenced for footprint</a></p>{return}<p>Example device(s):{return}<ul><li>POWER_JACK</li>{return}</ul></p>
-SparkFun
-0
-3
-3
-SparkFun-Connector
-Power_Jack_PTH_Slot
-
-SparkFun
-0
-3
-3
-SparkFun-Connector
-Power_Jack_PTH_Slot_Overhang
-
-SparkFun
-0
-3
-3
-SparkFun-Connector
-Power_Jack_SMD
-
-SparkFun
-0
-4
-4
-SparkFun-Connector
-Power_Jack_SMD_Overpaste_TOE
 
 SparkFun
 0
@@ -93156,9 +93520,9 @@ SparkFun
 0
 0
 SparkFun-Hardware
-Standoff_Raspberry-Pi_HAT+
-
-SparkFun
+Standoff_Hole-2.75mm_Clearance-1.625mm
+Standoff; hole dia. 2.75mm; clearance 1.625mm; overall clearance dia. 6.0mm; as used on Raspberry Pi pHAT
+SparkFun stand off Raspberry Pi RPi HAT
 0
 0
 0
@@ -93471,6 +93835,13 @@ SparkFun ID Innovations RFID Mechanical Outline
 0
 0
 SparkFun-RF
+ID-20LF_MF_Outline
+
+SparkFun ID Innovations RFID Mechanical Outline
+0
+0
+0
+SparkFun-RF
 Mini-Circuits_BH292
 
 SparkFun Mini-Circuits BH292
@@ -93737,7 +94108,7 @@ SparkFun SMD DIP DIL PDIP SMDIP 2.54mm 7.62mm 300mil
 4
 4
 SparkFun-Semiconductor-Standard
-SMDIP-4-WIDE
+SMDIP-4-Wide
 
 SparkFun
 0
@@ -93751,14 +94122,28 @@ SparkFun SOIC 8
 8
 8
 SparkFun-Semiconductor-Standard
-SO-8_WIDE
+SO-8_Wide
 https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5059/W25Q32JV_RevI_5-4-21.pdf
 SparkFun Wide SOIC 8 0.206" 5.23mm
 0
 8
 8
 SparkFun-Semiconductor-Standard
+SO-14
+
+SparkFun SOIC 14
+0
+14
+14
+SparkFun-Semiconductor-Standard
 SO-16
+
+SparkFun SOIC 16
+0
+16
+16
+SparkFun-Semiconductor-Standard
+SO-16_Wide_Power
 
 SparkFun SOIC 16
 0
@@ -94107,6 +94492,13 @@ SparkFun Momentary Switch (Pushbutton)
 0
 4
 2
+SparkFun-Switch
+Push_SMD_RA_4.5x3.4mm
+Momentary Switch (Pushbutton)
+SparkFun
+0
+7
+3
 SparkFun-Switch
 Push_SMD_RA_5x3mm
 Momentary Switch (Pushbutton)

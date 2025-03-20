@@ -5,10 +5,10 @@
 	(uuid "e3dd3ae4-244d-4cba-9cca-5d2abf83f29a")
 	(paper "USLetter")
 	(title_block
-		(title "SparkFun GNSS pHAT")
-		(date "2025-01-31")
-		(rev "v01")
-		(company "SparkFun")
+		(title "SparkFun GNSS Flex pHAT")
+		(date "2025-03-20")
+		(rev "v10")
+		(company "SparkFun Electronics")
 		(comment 1 "Designed by: P.C.")
 	)
 	(lib_symbols
@@ -2082,7 +2082,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:2x10_2.0mm_Male_Pins_Vertical_SMD"
+			(property "Footprint" "SparkFun-Connector:2x10_2.0mm_Male_Pins_Vertical_SMD_Pegs"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -2091,7 +2091,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://gct.co/files/drawings/bf030.pdf"
+			(property "Datasheet" "http://www.4uconnector.com/online/object/4udrawing/22817.pdf"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -2109,7 +2109,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "CONN-22476"
+			(property "PROD_ID" "CONN-25207"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -2807,7 +2807,7 @@
 				(pin passive line
 					(at -13.97 -2.54 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2825,7 +2825,7 @@
 				(pin passive line
 					(at 13.97 -2.54 180)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2843,7 +2843,7 @@
 				(pin passive line
 					(at -13.97 -5.08 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2861,7 +2861,7 @@
 				(pin passive line
 					(at 13.97 -5.08 180)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2879,7 +2879,7 @@
 				(pin passive line
 					(at -13.97 -7.62 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2897,7 +2897,7 @@
 				(pin passive line
 					(at 13.97 -7.62 180)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2915,7 +2915,7 @@
 				(pin passive line
 					(at -13.97 -10.16 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2933,7 +2933,7 @@
 				(pin passive line
 					(at 13.97 -10.16 180)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2951,7 +2951,7 @@
 				(pin passive line
 					(at -13.97 -12.7 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2987,7 +2987,7 @@
 				(pin passive line
 					(at 13.97 -12.7 180)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3152,7 +3152,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:2x10_2.0mm_Male_Pins_Vertical_SMD"
+			(property "Footprint" "SparkFun-Connector:2x10_2.0mm_Male_Pins_Vertical_SMD_Pegs"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -3161,7 +3161,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://gct.co/files/drawings/bf030.pdf"
+			(property "Datasheet" "http://www.4uconnector.com/online/object/4udrawing/22817.pdf"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -3179,7 +3179,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "CONN-22476"
+			(property "PROD_ID" "CONN-25207"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -3877,7 +3877,7 @@
 				(pin passive line
 					(at -13.97 -2.54 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3895,7 +3895,7 @@
 				(pin passive line
 					(at 13.97 -2.54 180)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3913,7 +3913,7 @@
 				(pin passive line
 					(at -13.97 -5.08 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3931,7 +3931,7 @@
 				(pin passive line
 					(at 13.97 -5.08 180)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3949,7 +3949,7 @@
 				(pin passive line
 					(at -13.97 -7.62 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3967,7 +3967,7 @@
 				(pin passive line
 					(at 13.97 -7.62 180)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3985,7 +3985,7 @@
 				(pin passive line
 					(at -13.97 -10.16 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4003,7 +4003,7 @@
 				(pin passive line
 					(at 13.97 -10.16 180)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4021,7 +4021,7 @@
 				(pin passive line
 					(at -13.97 -12.7 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "Pin_19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4057,7 +4057,7 @@
 				(pin passive line
 					(at 13.97 -12.7 180)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11796,6 +11796,66 @@
 		(color 0 0 0 0)
 		(uuid "fcf1d9a5-5f54-49ec-ad40-d57aefdb6aa7")
 	)
+	(no_connect
+		(at 39.37 43.18)
+		(uuid "03499d5e-27de-4940-904d-08e578735e70")
+	)
+	(no_connect
+		(at 39.37 53.34)
+		(uuid "141ed773-f959-4b2e-84d5-45e034411d21")
+	)
+	(no_connect
+		(at 72.39 185.42)
+		(uuid "16612f76-314f-48f4-8401-c44fe3d0858b")
+	)
+	(no_connect
+		(at 72.39 172.72)
+		(uuid "1f42c8b8-d999-47ff-830e-3f37afb2d4bb")
+	)
+	(no_connect
+		(at 39.37 48.26)
+		(uuid "3b37bc97-ebca-4056-85c7-6222fa16901d")
+	)
+	(no_connect
+		(at 256.54 105.41)
+		(uuid "55799fc2-a0a0-4c62-bf2e-5a767f93e308")
+	)
+	(no_connect
+		(at 214.63 29.21)
+		(uuid "703ed2c8-17f2-477f-9bce-ade8fcd0051c")
+	)
+	(no_connect
+		(at 214.63 44.45)
+		(uuid "82b39b51-1ef0-47ff-867d-1e74856cd150")
+	)
+	(no_connect
+		(at 39.37 38.1)
+		(uuid "af74c61b-7765-4ad2-b4cb-17956a3814f4")
+	)
+	(no_connect
+		(at 39.37 40.64)
+		(uuid "bb26650b-7d49-4645-976c-8f0a19a1553c")
+	)
+	(no_connect
+		(at 39.37 71.12)
+		(uuid "d5a3dfef-a4b4-4b94-8485-05bff144d103")
+	)
+	(no_connect
+		(at 39.37 50.8)
+		(uuid "dd575086-f008-4ef7-8d6d-8b009388fa5e")
+	)
+	(no_connect
+		(at 256.54 118.11)
+		(uuid "e5945253-311a-4d48-a7ad-f95b65457c0d")
+	)
+	(no_connect
+		(at 72.39 175.26)
+		(uuid "e71300cc-009b-49ae-bd3c-3564cdef21b9")
+	)
+	(no_connect
+		(at 186.69 49.53)
+		(uuid "f8fc25c7-fe1a-4ebb-84d6-8dadbd2fe5da")
+	)
 	(wire
 		(pts
 			(xy 50.8 182.88) (xy 54.61 182.88)
@@ -15596,6 +15656,16 @@
 		)
 		(uuid "7e932c9d-d7a6-4339-9e90-519ded232e02")
 	)
+	(text "Open jumpers to\ndisable LEDs"
+		(exclude_from_sim no)
+		(at 170.18 161.29 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "959a38cf-5936-429b-b8e8-4b7bf792b56a")
+	)
 	(text "Dielectric thickness (layer 1 to 2): 0.2mm"
 		(exclude_from_sim no)
 		(at 101.6 196.85 0)
@@ -15637,6 +15707,16 @@
 			)
 		)
 		(uuid "c17433b3-c548-4f66-9f24-dd46aa95d681")
+	)
+	(text "Open jumpers to\nisolate GPIO pins"
+		(exclude_from_sim no)
+		(at 30.48 36.83 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "c5a22d49-5f38-4147-bdd8-b46b702d9084")
 	)
 	(text "ID EEPROM"
 		(exclude_from_sim no)
@@ -22646,7 +22726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:2x10_2.0mm_Male_Pins_Vertical_SMD"
+		(property "Footprint" "SparkFun-Connector:2x10_2.0mm_Male_Pins_Vertical_SMD_Pegs"
 			(at 142.24 57.15 0)
 			(effects
 				(font
@@ -22655,7 +22735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/drawings/bf030.pdf"
+		(property "Datasheet" "http://www.4uconnector.com/online/object/4udrawing/22817.pdf"
 			(at 142.24 59.69 0)
 			(effects
 				(font
@@ -22673,7 +22753,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CONN-22476"
+		(property "PROD_ID" "CONN-25207"
 			(at 142.24 64.77 0)
 			(effects
 				(font
@@ -25820,7 +25900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:2x10_2.0mm_Male_Pins_Vertical_SMD"
+		(property "Footprint" "SparkFun-Connector:2x10_2.0mm_Male_Pins_Vertical_SMD_Pegs"
 			(at 200.66 57.15 0)
 			(effects
 				(font
@@ -25829,7 +25909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/drawings/bf030.pdf"
+		(property "Datasheet" "http://www.4uconnector.com/online/object/4udrawing/22817.pdf"
 			(at 200.66 59.69 0)
 			(effects
 				(font
@@ -25847,7 +25927,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CONN-22476"
+		(property "PROD_ID" "CONN-25207"
 			(at 200.66 64.77 0)
 			(effects
 				(font
