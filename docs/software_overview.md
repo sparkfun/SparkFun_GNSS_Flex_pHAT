@@ -126,10 +126,13 @@ In the Raspberry Pi OS, users can enable access to the serial interface through 
 To access the serial port on most Linux platforms, users will need to be a member of the `tty` and/or `dialout` groups. This can be configured with either the `adduser` or `usermod` utilities.
 
 - [`adduser` Utility](https://manpages.ubuntu.com/manpages/xenial/man8/adduser.8.html)
+
 	```shell
 	sudo adduser <username> <groupname>
 	```
+
 - [`usermod` Utility](https://manpages.ubuntu.com/manpages/xenial/man8/usermod.8.html)
+
 	```shell
 	sudo usermod -aG <groupname> <username>
 	```
@@ -154,11 +157,15 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 #### Shell Script
 [Installation instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#install-using-installation-script---macos--64-bit-debian-based-linux-only) for the example shell scripts are detailed in the GitHub repository's `README.md` file.
 
-<center>
 
-[Example Installation Script](https://github.com/semuconsulting/PyGPSClient/blob/master/examples/pygpsclient_debian_install.sh){ .md-button .md-button--primary }
+??? code "`pygpsclient_debian_install.sh`"
+	<center>
+	[Example Installation Script](https://github.com/semuconsulting/PyGPSClient/blob/master/examples/pygpsclient_debian_install.sh "Go to file"){ .md-button .md-button--primary }
+	</center>
 
-</center>
+	```shell
+	--8<-- "https://raw.githubusercontent.com/semuconsulting/PyGPSClient/refs/heads/master/examples/pygpsclient_debian_install.sh"
+	```
 
 
 
@@ -166,10 +173,11 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 [Installation instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#install-using-pip) for the `pip` installation method are detailed in the GitHub repository's `README.md` file. Depending on how Python is installed on the computer, one of the following commands should allow users to install the software:
 
 
-``` shell
+```shell
 python3 -m pip install pygpsclient
 ```
-``` shell
+
+```shell
 pip3 install pygpsclient
 ```
 
@@ -177,7 +185,7 @@ pip3 install pygpsclient
 !!! tip "Jetson - Install `pip`"
 	For the Jetson Orin Nano development kit, users will need to install `pip` before following the installation steps below.
 
-	``` shell
+	```shell
 	sudo apt install python3-pip
 	```
 
@@ -198,6 +206,7 @@ With the latest version of the Raspberry Pi OS, Bookworm, users will need to fol
 
 #### Create a Virtual Environment
 To create a virtual environment, in a specific `<directory>`:
+
 ```shell
 python3 -m venv <directory>
 ```
@@ -214,6 +223,7 @@ python3 -m venv <directory>
 
 #### Activate the Virtual Environment
 To activate the virtual environment that was created in the `<directory>`:
+
 ```shell
 source <directory>/bin/activate
 ```
@@ -221,6 +231,7 @@ source <directory>/bin/activate
 - **Install the Application in the Virtual Environment**
 
 	Once inside the virtual environment, users can install the Python package with the normal `pip` installation command:
+
 	```shell
 	python3 -m pip install pygpsclient
 	```
@@ -228,6 +239,7 @@ source <directory>/bin/activate
 - **Run the Application in the Virtual Environment**
 
 	To run the application in the virtual environment:
+
 	```shell
 	pygpsclient
 	```
@@ -245,15 +257,19 @@ source <directory>/bin/activate
 
 #### Deactivate the Virtual Environment
 To deactivate the virtual environment:
+
 ```shell
 deactivate
 ```
 
 - Once deactivated, the virtual environment can be reactivated with the activation command:
+
 	```shell
 	source <directory>/bin/activate
 	```
+
 - To reactivate and run the Python package in the virtual environment:
+
 	```shell
 	source <directory>/bin/activate
 	pygpsclient
@@ -271,10 +287,13 @@ deactivate
 In certain circumstances, users may need to manually configure the serial port for the application to function.
 
 - **Pi 3/4/Zero 2W:**
+
 	```shell
 	sudo pygpsclient ---userport /dev/ttyS0
 	```
+
 - **Pi 5:**
+
 	```shell
 	sudo pygpsclient ---userport /dev/ttyAMA0
 	```
@@ -293,18 +312,25 @@ While not required to operate the `PyGPSClient` software, user have additional o
 The location of the relevant binaries folder can usually be found by executing one of the following commands:
 
 - If the package was installed in the virtual environment, activate it:
+
 	```shell
 	source <directory>/bin/activate
 	```
+
 - For a global installation, execute the following command:
+
 	```shell
 	python3 -c "import os,sysconfig;print(sysconfig.get_path('scripts'))"
 	```
+
 	The system should return the following directory for the relevant binaries, in a virtual environment:
+
 	```shell
 	/home/<user>/<directory>/bin
 	```
+
 - Deactivate, if inside a virtual environment:
+
 	```shell
 	deactivate
 	```
@@ -344,6 +370,7 @@ source ~/.profile
 
 
 !!! example
+
 	```shell
 	export PATH="$PATH:/home/pi/env/bin"
 	source ~/.profile
@@ -351,6 +378,7 @@ source ~/.profile
 
 
 Once added, the application should now be available outside of the virtual environment:
+
 ```shell
 pygpsclient
 ```
@@ -385,7 +413,7 @@ In addition to the previous sections, users can [follow these instructions](http
 
 1. Create a text file named `pygpsclient.desktop` with the following content and save it in the `/home/<user>/.local/share/applications` directory.
 
-	```bash
+	```shell
 	[Desktop Entry]
 	Type=Application
 	Terminal=false
@@ -396,7 +424,7 @@ In addition to the previous sections, users can [follow these instructions](http
 
 
 	!!! example
-		```bash
+		```shell
 		[Desktop Entry]
 		Type=Application
 		Terminal=false
@@ -517,11 +545,11 @@ In order to receive or cast RTK corrections to/from a RTK network, such as NTRIP
 			Once a network bridge is enabled, the receiver will receive its IP address from the computer's DHCP server. Depending on the routing table, the module may no longer be reachable at its default IP address *(`192.168.3.1`)*.
 
 			If users need to determine the subnet address of the network connection, they need to install a tool called `nmap`.
-			```bash
+			```shell
 			sudo apt install nmap -y
 			```
 			In a terminal enter the following command to determine IP address.
-			```bash
+			```shell
 			nmap <IP Address>/24
 			```
 
