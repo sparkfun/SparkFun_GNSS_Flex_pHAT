@@ -65,14 +65,14 @@ The GNSS Flex pHAT also comes populated with two sets of 2x10 pin, 2mm pitch mal
 -   <!-- Boxes in tabs -->
 
 	=== "3D Model"
-		<center>
+		<article style="text-align: center;" markdown>
 		<model-viewer src="../assets/3d_model/web_model.glb" camera-controls poster="../assets/3d_model/poster.png" tone-mapping="neutral" shadow-intensity="2" shadow-softness="0.2" camera-orbit="0deg 75deg 0.1623m" field-of-view="25.11deg" style="width: 100%; height: 450px;">
 		</model-viewer>
-		</center>
+		</article>
 
 
 		???+ tip "Manipulate 3D Model"
-			<center>
+			<article style="text-align: center;" markdown>
 
 			| Controls       | Mouse                    | Touchscreen    |
 			| :------------- | :----------------------: | :------------: |
@@ -80,14 +80,14 @@ The GNSS Flex pHAT also comes populated with two sets of 2x10 pin, 2mm pitch mal
 			| Rotate         | ++"Left-Click"++ & Drag  | 1-Finger Drag  |
 			| Move/Translate | ++"Right-Click"++ & Drag | 2-Finger Drag  |
 
-			</center>
+			</article>
 
 
 	=== "Dimensions"
-		<center>
+		<article style="text-align: center;" markdown>
 		[![Board Dimensions](./assets/board_files/dimensions.png){ width="400" }](./assets/board_files/dimensions.png "Click to enlarge")
 		<figcaption markdown>Dimensions of the GNSS Flex pHAT.</figcaption>
-		</center>
+		</article>
 
 
 		???+ tip "Need more measurements?"
@@ -97,20 +97,20 @@ The GNSS Flex pHAT also comes populated with two sets of 2x10 pin, 2mm pitch mal
 			!!! info ":octicons-download-16:{ .heart } KiCad - Free Download!"
 				KiCad is free, open-source [CAD]("computer-aided design") program for electronics. Click on the button below to download their software. *(\*Users can find out more information about KiCad from their [website](https://www.kicad.org/).)*
 
-				<center>
+				<article style="text-align: center;" markdown>
 				[Download :kicad-primary:{ .enlarge-logo }](https://www.kicad.org/download/ "Go to downloads page"){ .md-button .md-button--primary }
-				</center>
+				</article>
 
 
 			???+ info ":straight_ruler: Measuring Tool"
 				This video demonstrates how to utilize the dimensions tool in KiCad, to include additional measurements:
 
-				<center>
+				<article style="text-align: center;" markdown>
 				<article class="video-500px">
 				<iframe src="https://www.youtube.com/embed/-eXuD8pkCYw" title="KiCad Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</article>
 				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
-				</center>
+				</article>
 
 </div>
 
@@ -180,18 +180,18 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 	<div markdown>
 
 	=== "UART1"
-		<center>
+		<article style="text-align: center;" markdown>
 
 		| GNSS Flex Pin| Raspberry Pi GPIO |
 		| :---: | :---------------- |
 		| `RX1` | `GPIO14` *(`TX`)* |
 		| `TX1` | `GPIO15` *(`RX`)* |
 
-		</center>
+		</article>
 
 
 	=== "UART2"
-		<center>
+		<article style="text-align: center;" markdown>
 
 		| GNSS Flex Pin| Raspberry Pi GPIO |
 		| :----: | :------------------- |
@@ -200,11 +200,11 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 		| `RTS2` | `GPIO10` *(`PICO0`)* |
 		| `CTS2` | `GPIO11` *(`SLK0`)*  |
 
-		</center>
+		</article>
 
 
 	=== "UART3"
-		<center>
+		<article style="text-align: center;" markdown>
 
 		| GNSS Flex Pin| Raspberry Pi GPIO |
 		| :----: | :------------------- |
@@ -213,18 +213,18 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 		| `RTS3` | `GPIO06` *(`GCLK2`)* |
 		| `CTS3` | `GPIO07` *(`CE1`)*   |
 
-		</center>
+		</article>
 
 
 	=== "UART4"
-		<center>
+		<article style="text-align: center;" markdown>
 
 		| GNSS Flex Pin| Raspberry Pi GPIO |
 		| :---: | :------------------ |
 		| `RX4` | `GPIO12` *(`PMW0`)* |
 		| `TX4` | `GPIO13` *(`PMW1`)* |
 
-		</center>
+		</article>
 
 	</div>
 
@@ -247,14 +247,14 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 
 	<div markdown>
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	| GNSS Flex Pin| Raspberry Pi GPIO |
 	| :---: | :------------------ |
 	| `SDA` | `GPIO02` *(`SDA`)* |
 	| `SCL` | `GPIO03` *(`SCL`)* |
 
-	</center>
+	</article>
 
 	</div>
 
@@ -277,14 +277,14 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 
 	<div markdown>
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	| GNSS Flex Pin| Raspberry Pi GPIO |
 	| :----: | :------- |
 	| `PPS1` | `GPIO22` |
 	| `PPS2` | `GPIO23` |
 
-	</center>
+	</article>
 
 	</div>
 
@@ -307,14 +307,14 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 
 	<div markdown>
 
-	<center>
+	<article style="text-align: center;" markdown>
 
 	| GNSS Flex Pin| Raspberry Pi GPIO |
 	| :------: | :------- |
 	| `EVENTA` | `GPIO24` |
 	| `EVENTB` | `GPIO25` |
 
-	</center>
+	</article>
 
 	</div>
 
