@@ -124,6 +124,34 @@ In the Raspberry Pi OS, users can enable access to the serial interface through 
 !!! tip "Is PyGPSClient disconnecting?"
 	If PyGPSClient disconnects from the serial port after a few seconds, you probably still have the Login Shell enabled. Use 'raspi-config' to ensure: the serial port hardware is enabled; and that [the login shell is *not* accessible](https://www.raspberrypi.com/documentation/computers/configuration.html#disabling-the-linux-serial-console).
 
+### Additional UARTs
+
+The GNSS Flex pHAT supports up to four hardware UART connections. On Raspberry Pi, it may be necessary to enable the three additional UARTs manually. On Raspberry Pi 5, the additional ports usually appear as '/dev/ttyAMA2', '/dev/ttyAMA3' and '/dev/ttyAMA4'. In a Terminal Window, type 'ls /dev/tty*' to list all the available ports. If the ports are not enabled, you can enable them by editing '/boot/firmware/config.txt':
+
+- Edit '/boot/firmware/config.txt'
+
+	```shell
+	sudo nano /boot/firmware/config.txt
+	```
+
+- Add these three lines to the end of the file
+
+	```shell
+	dtoverlay=uart2
+	dtoverlay=uart3
+	dtoverlay=uart4
+	```
+
+- Save the file using 'crtl-X' and select 'Save'
+
+- Reboot the Pi with 'sudo reboot'
+
+
+!!! tip "UART Numbering"
+	Please note that the UART numbers (UART1 - UART4) listed in the GNSS Flex Module hardware documentation refer to the GNSS UART numbering scheme. The mosaic-X5 supports four hardware UARTs (COM1 - COM4). The LG290P supports only three (UART1 - UART3).
+
+	Please also note that the UART numbers on Raspberry Pi will be different, as will the '/dev/ttyAMA' device names. There is not a 1:1 mapping between the Flex UART numbers and the Raspberry Pi UART numbers. The Raspberry Pi UART numbers also vary from model to model; the Pi 5 and Pi 4 numbering is different for example. On Pi 4, it is necessary to enable UART3 - UART5.
+
 
 ### User Privileges
 To access the serial port on most Linux platforms, users will need to be a member of the `tty` and/or `dialout` groups. This can be configured with either the `adduser` or `usermod` utilities.
