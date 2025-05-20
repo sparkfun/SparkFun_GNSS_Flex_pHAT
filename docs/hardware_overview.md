@@ -172,6 +172,11 @@ In its simplest form, the SparkFun GNSS Flex pHAT sits atop a Raspberry Pi inter
 ### Interfaces
 The following interfaces and signals of the GNSS Flex system are connected to the 40-pin female GPIO header of the GNSS Flex pHAT. Below, are tables detailing the pin connections for each interface.
 
+!!! tip "UART Numbering"
+	Please note that the UART numbers (UART1 - UART4) listed below follow the GNSS Flex Module UART numbering scheme. The mosaic-X5 supports four hardware UARTs (COM1 - COM4). The LG290P supports only three (UART1 - UART3).
+
+	Please also note that the UART numbers on Raspberry Pi will be different, as will the '/dev/ttyAMA' device names. There is not a 1:1 mapping between the GNSS Flex UART numbers and the Raspberry Pi UART numbers. The Raspberry Pi UART numbers also vary from model to model; the Pi 5 and Pi 4 numbering is different for example.
+
 
 === "UART"
 
@@ -187,6 +192,8 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 		| `RX1` | `GPIO14` *(`TX`)* |
 		| `TX1` | `GPIO15` *(`RX`)* |
 
+		*Highlighted in Green*
+
 		</article>
 
 
@@ -199,6 +206,8 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 		| `TX2`  | `GPIO09` *(`POCI0`)* |
 		| `RTS2` | `GPIO10` *(`PICO0`)* |
 		| `CTS2` | `GPIO11` *(`SLK0`)*  |
+
+		*Highlighted in Blue*
 
 		</article>
 
@@ -213,6 +222,8 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 		| `RTS3` | `GPIO06` *(`GCLK2`)* |
 		| `CTS3` | `GPIO07` *(`CE1`)*   |
 
+		*Highlighted in Yellow*
+
 		</article>
 
 
@@ -223,6 +234,8 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 		| :---: | :------------------ |
 		| `RX4` | `GPIO12` *(`PMW0`)* |
 		| `TX4` | `GPIO13` *(`PMW1`)* |
+
+		*Highlighted in Red*
 
 		</article>
 

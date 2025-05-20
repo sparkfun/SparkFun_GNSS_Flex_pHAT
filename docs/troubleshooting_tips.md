@@ -11,6 +11,9 @@
 		If this is your first visit to our forum, you'll need to create a [Forum Account](https://forum.sparkfun.com/ucp.php?mode=register) to post questions.
 
 
+!!! tip "Is PyGPSClient disconnecting?"
+	If PyGPSClient disconnects from the serial port after a few seconds, you probably still have the Login Shell enabled. Use 'raspi-config' to ensure: the serial port hardware is enabled; and that [the login shell is *not* accessible](https://www.raspberrypi.com/documentation/computers/configuration.html#disabling-the-linux-serial-console).
+
 
 ## PyGPSClient *(system wide access)*
 Users could potentially make the pyGPSCLient application globally available on the Raspberry Pi; however, that is outside the scope of this document.
