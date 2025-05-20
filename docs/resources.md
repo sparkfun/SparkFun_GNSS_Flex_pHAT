@@ -15,7 +15,7 @@
 	- :material-github: [GitHub Repository](https://github.com/semuconsulting/PyGPSClient)
 	- :material-github: [Installation Instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#installation)
 	- :simple-pypi: [PyPI Project](https://pypi.org/project/pygpsclient/)
-- :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_pHAT)
+- :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT)
 
 
 ### Additional Resources

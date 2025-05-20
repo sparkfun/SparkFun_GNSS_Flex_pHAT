@@ -60,7 +60,7 @@ Product Variants
 
 Version History
 ---------------
-- [v10](https://github.com/sparkfun/SparkFun_GNSS_pHAT/releases/tag/v10) - Initial Release
+- [v10](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT/releases/tag/v10) - Initial Release
 
 
 License Information
