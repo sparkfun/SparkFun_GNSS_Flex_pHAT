@@ -175,7 +175,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 !!! tip "UART Numbering"
 	Please note that the UART numbers (UART1 - UART4) listed below follow the GNSS Flex Module UART numbering scheme. The mosaic-X5 supports four hardware UARTs (COM1 - COM4). The LG290P supports only three (UART1 - UART3).
 
-	Please also note that the UART numbers on Raspberry Pi will be different, as will the '/dev/ttyAMA' device names. There is not a 1:1 mapping between the GNSS Flex UART numbers and the Raspberry Pi UART numbers. The Raspberry Pi UART numbers also vary from model to model; the Pi 5 and Pi 4 numbering is different for example.
+	Please also note that the UART numbers on Raspberry Pi will be different, as will the `/dev/ttyAMA` device names. There is not a 1:1 mapping between the GNSS Flex UART numbers and the Raspberry Pi UART numbers. The Raspberry Pi UART numbers also vary from model to model; the Pi 5 and Pi 4 numbering is different for example.
 
 
 === "UART"
