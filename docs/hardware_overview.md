@@ -232,7 +232,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 	<div markdown>
 
 	<figure markdown>
-	[![GPIO header](./assets/img/hookup_guide/gpio-uart.png){ width="400" }](./assets/img/hookup_guide/gpio-uart.png "Click to enlarge")
+	[![GPIO header](./assets/img/hookup_guide/gpio-uart.png){ width="650" }](./assets/img/hookup_guide/gpio-uart.png "Click to enlarge")
 	<figcaption markdown>The pin connections of the UART interface, from the GNSS Flex system to the 40-pin female GPIO header.</figcaption>
 	</figure>
 
@@ -262,7 +262,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 	<div markdown>
 
 	<figure markdown>
-	[![GPIO header](./assets/img/hookup_guide/gpio-i2c.png){ width="400" }](./assets/img/hookup_guide/gpio-i2c.png "Click to enlarge")
+	[![GPIO header](./assets/img/hookup_guide/gpio-i2c.png){ width="650" }](./assets/img/hookup_guide/gpio-i2c.png "Click to enlarge")
 	<figcaption markdown>The pin connections of the I<sup>2</sup>C interface, from the GNSS Flex system to the 40-pin female GPIO header.</figcaption>
 	</figure>
 
@@ -292,7 +292,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 	<div markdown>
 
 	<figure markdown>
-	[![GPIO header](./assets/img/hookup_guide/gpio-pps.png){ width="400" }](./assets/img/hookup_guide/gpio-pps.png "Click to enlarge")
+	[![GPIO header](./assets/img/hookup_guide/gpio-pps.png){ width="650" }](./assets/img/hookup_guide/gpio-pps.png "Click to enlarge")
 	<figcaption markdown>The pin connections of the PPS signals, from the GNSS Flex system to the 40-pin female GPIO header.</figcaption>
 	</figure>
 
@@ -322,7 +322,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 	<div markdown>
 
 	<figure markdown>
-	[![GPIO header](./assets/img/hookup_guide/gpio-event.png){ width="400" }](./assets/img/hookup_guide/gpio-event.png "Click to enlarge")
+	[![GPIO header](./assets/img/hookup_guide/gpio-event.png){ width="650" }](./assets/img/hookup_guide/gpio-event.png "Click to enlarge")
 	<figcaption markdown>The pin connections of the event triggers, from the GNSS Flex system to the 40-pin female GPIO header.</figcaption>
 	</figure>
 
