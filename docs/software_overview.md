@@ -143,8 +143,8 @@ To access the serial port on most Linux platforms, users will need to be a membe
 
 
 
-## pyGPSClient
-[PyGPSClient](https://github.com/semuconsulting/PyGPSClient) is a free, open-source graphical interface for GNSS receiver testing and evaluation. We recommend the software for the Raspberry Pi and other SBCs because it is supported on multiple operating systems.
+## PyGPSClient
+[PyGPSClient](https://github.com/semuconsulting/PyGPSClient) is a free, open-source graphical interface for GNSS receiver testing and evaluation. We recommend the software for the Raspberry Pi and other SBCs because it is supported on multiple operating systems. It works very well on desktop machines too - if you have Python installed.
 
 
 !!! info "System Requirements"
