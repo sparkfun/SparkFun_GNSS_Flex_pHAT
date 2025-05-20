@@ -118,8 +118,11 @@ In the Raspberry Pi OS, users can enable access to the serial interface through 
 
 
 !!! tip "Disabling the Linux Serial Console"
-	On the Pi 3/4/Zero 2W, users should keep [access to the shell disabled from the serial interface](https://www.raspberrypi.com/documentation/computers/configuration.html#disabling-the-linux-serial-console).
+	On the Pi 3/4/5/Zero 2W, users should keep [access to the shell disabled from the serial interface](https://www.raspberrypi.com/documentation/computers/configuration.html#disabling-the-linux-serial-console).
 
+
+!!! tip "Is PyGPSClient disconnecting?"
+	If PyGPSClient disconnects from the serial port after a few seconds, you probably still have the Login Shell enabled. Use 'raspi-config' to ensure: the serial port hardware is enabled; and that [the login shell is *not* accessible](https://www.raspberrypi.com/documentation/computers/configuration.html#disabling-the-linux-serial-console).
 
 
 ### User Privileges
