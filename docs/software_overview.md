@@ -113,7 +113,7 @@ Depending on the SBC platform, users may need to enable access to the serial int
 In the Raspberry Pi OS, users can enable access to the serial interface through the [`raspi-config`](https://www.raspberrypi.com/documentation/computers/configuration.html#raspi-config) configuration tool. The tool can be utilized through either the CLI or [desktop GUI](https://www.raspberrypi.com/documentation/computers/configuration.html#raspberry-pi-configuration). To change the configuration settings, users will need to navigate through the [Interface options](https://www.raspberrypi.com/documentation/computers/configuration.html#interfacing-options) > [Serial port](https://www.raspberrypi.com/documentation/computers/configuration.html#serial) menus and enable the serial port.
 
 
-??? note
+???+ note
 	Not all of the advanced configuration options from the CLI are available in the Raspberry Pi Configuration GUI.
 
 
@@ -155,7 +155,9 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 [Installation instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#install-using-installation-script---macos--64-bit-debian-based-linux-only) for the example shell scripts are detailed in the GitHub repository's `README.md` file.
 
 <center>
-[Go to `pygpsclient_debian_install.sh` Script](https://github.com/semuconsulting/PyGPSClient/blob/master/examples/pygpsclient_debian_install.sh){ .md-button .md-button--primary }
+
+[Example Installation Script](https://github.com/semuconsulting/PyGPSClient/blob/master/examples/pygpsclient_debian_install.sh){ .md-button .md-button--primary }
+
 </center>
 
 
