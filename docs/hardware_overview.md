@@ -187,6 +187,8 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 		| `RX1` | `GPIO14` *(`TX`)* |
 		| `TX1` | `GPIO15` *(`RX`)* |
 
+		*Highlighted in Green*
+
 		</article>
 
 
@@ -199,6 +201,8 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 		| `TX2`  | `GPIO09` *(`POCI0`)* |
 		| `RTS2` | `GPIO10` *(`PICO0`)* |
 		| `CTS2` | `GPIO11` *(`SLK0`)*  |
+
+		*Highlighted in Blue*
 
 		</article>
 
@@ -213,6 +217,8 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 		| `RTS3` | `GPIO06` *(`GCLK2`)* |
 		| `CTS3` | `GPIO07` *(`CE1`)*   |
 
+		*Highlighted in Yellow*
+
 		</article>
 
 
@@ -223,6 +229,8 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 		| :---: | :------------------ |
 		| `RX4` | `GPIO12` *(`PMW0`)* |
 		| `TX4` | `GPIO13` *(`PMW1`)* |
+
+		*Highlighted in Red*
 
 		</article>
 
