@@ -19,13 +19,8 @@ The GNSS Flex pHAT also comes populated with two sets of 2x10 pin, 2mm pitch mal
 >
 > Users will have two options for connecting an external GNSS antenna to their GNSS receiver.
 >
-<<<<<<< HEAD
 > - The GNSS Flex modules will usually come with a U.FL connector for external antenna.
 > - For a sturdier connection, an SMA connector is available on the SparkFun GNSS Flex pHAT that is bridged to an U.FL connector. Users simply need to jumper the U.FL connectors on both the SparkPNT GNSS Flex module and SparkFun GNSS Flex pHAT with a short U.FL cable.
-=======
-> - The GNSS Flex modules will usually come with a u.fl connector for external antenna.
-> - For a sturdier connection, an SMA connector is available on the SparkFun GNSS Flex pHAT that is bridged to an u.fl connector. Users simply need to jumper the u.fl connectors on both the SparkPNT GNSS Flex module and SparkFun GNSS Flex pHAT with a short u.fl cable.
->>>>>>> a41ef90612601fc98d7bb8f12c824ccf6831b618
 
 > [!TIP]
 > The SparkFun GNSS Flex pHAT has been tested and verified on the following platforms:
@@ -37,10 +32,6 @@ Documentation
 --------------
 - **[Hookup Guide (mkdocs)](http://docs.sparkfun.com/SparkFun_GNSS_Flex_System/)** - A hookup guide for the entire ecosystem of SparkFun GNSS Flex carrier boards and SparkPNT GNSS Flex modules, hosted by GitHub pages.<br>
   [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/) [![GitHub Pages Deploy](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/actions/workflows/build_documentation.yml/badge.svg)](https://github.com/sparkfun/SparkFun_GNSS_Flex_System/actions/workflows/build_documentation.yml)
-
-  *Need to download or print our hookup guide?*
-
-  - [Print *(Print to PDF)* from Single-Page View](http://docs.sparkfun.com/SparkFun_GNSS_Flex_System/print_view)
 
 
 Repository Contents
@@ -64,10 +55,7 @@ Product Variants
 - [GPS-28137](https://www.sparkfun.com/sparkfun-gnss-flex-phat.html) - GNSS Flex pHAT *(only)*
 - Kits:
   - [GPS-28766](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5.html) - w/ the Septentrio mosaic-X5 GNSS Flex module
-<<<<<<< HEAD
   - [GPS-28929](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p.html) - w/ the Quectel LG290P GNSS Flex module
-=======
->>>>>>> a41ef90612601fc98d7bb8f12c824ccf6831b618
 
 
 Version History
