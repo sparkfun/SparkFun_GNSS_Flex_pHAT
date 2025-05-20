@@ -1,0 +1,19 @@
+# Needs to be the same as the root directory
+site_name: SparkFun_GNSS_pHAT
+
+
+# Configures webpage navigation
+# Excludes README.md files from being built as webpages
+exclude_docs: |
+  README.md
+
+# Pages that are built, but not in the navigation menu
+not_in_nav: |
+  index.md
+
+nav:
+  - Hardware Overview: hardware_overview.md
+  - Hardware Assembly: hardware_assembly.md
+  - Software Overview: software_overview.md
+  - Troubleshooting Tips: troubleshooting_tips.md
+  - Resources: resources.md
