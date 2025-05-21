@@ -204,16 +204,7 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 [Installation instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#install-using-pip) for the `pip` installation method are detailed in the GitHub repository's `README.md` file. Depending on how Python is installed on the computer, one of the following commands should allow users to install the software:
 
 
-```shell
-python3 -m pip install pygpsclient
-```
-
-```shell
-pip3 install pygpsclient
-```
-
-
-!!! tip "Jetson - Install `pip`"
+???+ tip "Jetson - Install `pip`"
 	For the Jetson Orin Nano development kit, users will need to install `pip` before following the installation steps below.
 
 	```shell
@@ -221,8 +212,17 @@ pip3 install pygpsclient
 	```
 
 
-!!! rpi "Pi OS - Bookworm"
+???+ rpi "Pi OS - Bookworm"
 	Starting with Raspberry Pi OS Bookworm, users can no longer install Python packages, via `pip`, directly into the system version of Python. Instead, Python packages must be installed into a Python virtual environment (`venv`); a container where third-party modules can be safely installed without interfering with the system version of Python.
+
+
+```shell
+python3 -m pip install pygpsclient
+```
+
+```shell
+pip3 install pygpsclient
+```
 
 
 
