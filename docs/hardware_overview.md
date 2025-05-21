@@ -410,6 +410,66 @@ The Qwiic connector attached to the primary I<sup>2</sup>C interface of the 40-p
 </figure>
 
 
+??? tip "What is Qwiic?"
+
+	<div class="grid" markdown>
+
+	<div markdown>
+
+	<!-- Qwiic Banner -->
+	<center>
+	[![Qwiic Logo - light theme](./assets/img/qwiic/qwiic_logo-light.png#only-light){ width=400 }](https://www.sparkfun.com/qwiic)
+	[![Qwiic Logo - dark theme](./assets/img/qwiic/qwiic_logo-dark.png#only-dark){ width=400 }](https://www.sparkfun.com/qwiic)
+	</center>
+
+	---
+
+	The [Qwiic connect system](https://www.sparkfun.com/qwiic) is a solderless, polarized connection system that allows users to seamlessly daisy chain I^2^C boards together. Play the video, to learn more about the Qwiic connect system or click on the banner above to learn more about [Qwiic products](https://www.sparkfun.com/qwiic).
+
+	</div>
+
+
+	<div style="max-height=400px;" markdown>
+
+	<center>
+	<div class="video-container">
+	<iframe src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	![QR code to instructional video](./assets/img/qr_code/qwiic_video.png){ .qr width=100 }
+	</div>
+	</center>
+
+	</div>
+
+	</div>
+
+
+	!!! info "Features of the Qwiic System"
+
+		=== "No Soldering"
+
+			![no soldering - light theme](./assets/img/qwiic/no_soldering-light.png#only-light){ align="left" width="90" }
+			![no soldering - dark theme](./assets/img/qwiic/no_soldering-dark.png#only-dark){ align="left" width="90" }
+
+			Qwiic cables (4-pin JST) plug easily from development boards to sensors, shields, accessory boards and more, making easy work of setting up a new prototype.
+
+		=== "Polarized Connector"
+
+			![polarized connector - light theme](./assets/img/qwiic/polarized_connector-light.png#only-light){ align="left" width="90" }
+			![polarized connector - dark theme](./assets/img/qwiic/polarized_connector-dark.png#only-dark){ align="left" width="90" }
+
+			There's no need to worry about accidentally swapping the `SDA` and `SCL` wires on your breadboard. The Qwiic connector is polarized so you know you’ll have it wired correctly every time.
+
+			The part numbers for the PCB connector is `SM04B-SRSS` ([Datasheet](https://cdn.sparkfun.com/assets/parts/1/2/2/8/9/Qwiic_Connector_Datasheet.pdf)) and the mating connector on the cables is `SHR04V-S-B`; or an equivalent *1mm pitch, 4-pin JST connection*.
+
+		=== "Daisy Chain-able"
+
+			![daisy chainable - light theme](./assets/img/qwiic/daisy_chainable-light.png#only-light){ align="left" width="90" }
+			![daisy chainable - dark theme](./assets/img/qwiic/daisy_chainable-dark.png#only-dark){ align="left" width="90" }
+
+			It’s time to leverage the power of the I^2^C bus! Most Qwiic boards will have two or more connectors on them, allowing multiple devices to be connected.
+
+
 
 ## Jumpers
 There are twenty-three jumpers on the GNSS Flex pHAT:
