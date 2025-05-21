@@ -1,3 +1,8 @@
+<article style="text-align: center;" markdown>
+![Banner](./assets/img/banner-hookup_guide.png){ width="650px" }
+</article>
+
+
 !!! info "pHAT (not HAT+)"
 	This is product does not completely meet Raspberry Pi's HAT+ specification.
 
@@ -6,9 +11,30 @@
 
 
 ## Introduction
-The SparkFun GNSS Flex pHAT is a Raspberry Pi pHAT that functions as a *carrier board* for our SparkPNT GNSS Flex modules. With pre-soldered headers, no soldering is required to stack the pHAT on the headers of a Raspberry Pi, NVIDIA Jetson Nano, Google Coral, or other single-board computer with a similar 40-pin header.
 
-The GNSS Flex pHAT also comes populated with two sets of 2x10 pin, 2mm pitch male headers for attaching a GNSS Flex module. With these headers, the GNSS Flex system is designed to be modular so that boards are pin-compatible for upgrades and can be easily swapped for repairs. Depending on the capabilities of the GNSS Flex module that is connected, these pins will breakout the USB, UART (x4), I<sup>2</sup>C, and SD card interfaces for the GNSS receiver along with any PPS or event signals, using a standardized pin out.
+<div class="grid cards desc" markdown>
+
+-   <a href="https://www.sparkfun.com/sparkfun-gnss-flex-phat.html">
+	**SparkFun GNSS Flex pHAT**<br>
+	**SKU:** GPS-28137
+
+	---
+
+	<figure markdown>
+	![Product Thumbnail](https://cdn.sparkfun.com/assets/parts/2/9/7/4/8/28137-GNSS-Flex-Phat-Feature.jpg)
+	</figure></a>
+
+	<article style="text-align: center;" markdown>
+	![QR code to product page](./assets/img/qr_code/product.png){ .tinyqr }
+	[Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/sparkfun-gnss-flex-phat.html){ .md-button .md-button--primary }
+	</article>
+
+
+-	The SparkFun GNSS Flex pHAT is a Raspberry Pi pHAT that functions as a *carrier board* for our SparkPNT GNSS Flex modules. With pre-soldered headers, no soldering is required to stack the pHAT on the headers of a Raspberry Pi, NVIDIA Jetson Nano, Google Coral, or other single-board computer with a similar 40-pin header.
+
+	The GNSS Flex pHAT also comes populated with two sets of 2x10 pin, 2mm pitch male headers for attaching a GNSS Flex module. With these headers, the GNSS Flex system is designed to be modular so that boards are pin-compatible for upgrades and can be easily swapped for repairs. Depending on the capabilities of the GNSS Flex module that is connected, these pins will breakout the USB, UART (x4), I<sup>2</sup>C, and SD card interfaces for the GNSS receiver along with any PPS or event signals, using a standardized pin out.
+
+</div>
 
 
 
