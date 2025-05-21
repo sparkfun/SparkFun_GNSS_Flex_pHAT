@@ -1,6 +1,7 @@
 ## Product Resources
 
 - Product Pages
+	- :sfe: [SparkFun GNSS Flex pHAT](https://www.sparkfun.com/sparkfun-gnss-flex-phat.html)
 	- :sfe: [SparkFun GNSS Flex pHAT - mosaic-X5](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5.html)
 	- :sfe: [SparkFun GNSS Flex pHAT - LG290P](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p.html)
 - :material-folder-cog: Design Files:
@@ -15,6 +16,7 @@
 	- :material-github: [GitHub Repository](https://github.com/semuconsulting/PyGPSClient)
 	- :material-github: [Installation Instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#installation)
 	- :simple-pypi: [PyPI Project](https://pypi.org/project/pygpsclient/)
+- :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 - :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT)
 
 
