@@ -114,10 +114,8 @@
 			???+ info ":straight_ruler: Measuring Tool"
 				This video demonstrates how to utilize the dimensions tool in KiCad, to include additional measurements:
 
-				<article style="text-align: center;" markdown>
-				<article class="video-500px">
+				<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 				<iframe src="https://www.youtube.com/embed/-eXuD8pkCYw" title="KiCad Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</article>
 				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
 				</article>
 
@@ -440,13 +438,10 @@ The Qwiic connector attached to the primary I<sup>2</sup>C interface of the 40-p
 
 	<div style="max-height=400px;" markdown>
 
-	<center>
-	<div class="video-container">
+	<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 	![QR code to instructional video](./assets/img/qr_code/qwiic_video.png){ .qr width=100 }
-	</div>
-	</center>
+	</article>
 
 	</div>
 

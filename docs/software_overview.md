@@ -57,11 +57,9 @@ For users unfamiliar with the following platforms, we have linked additional res
 	- [Operating System Images](https://www.raspberrypi.com/software/operating-systems/)
 	- [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/)
 		- [Getting Started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
-			<article style="text-align: center;" markdown>
+			<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 			![QR code to play video](./assets/img/qr_code/pi-setup_instructions.png){ .qr }
-			<article class="video-500px">
 			<iframe src="https://www.youtube.com/embed/CQtliTJ41ZE" title="How to set up a Raspberry Pi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</article>
 			</article>
 		- [Raspberry Pi OS](https://www.raspberrypi.com/documentation/computers/os.html#updating-and-upgrading-raspberry-pi-os)
 		- [Configurations](https://www.raspberrypi.com/documentation/computers/configuration.html)
@@ -545,10 +543,8 @@ In order to receive or cast RTK corrections to/from a RTK network, such as NTRIP
 
 - Users will need to use the web interface to enable the `Outgoing Internet Access Over USB` from the **Communication** > **USB** drop-down menu of the navigation tabs.
 
-	<article style="text-align: center;" markdown>
-	<article class="video-500px">
+	<article class="video-500px" style="margin: auto;">
 	<iframe src="https://www.youtube.com/embed/bUt8cL9Ue1Y" title="Septentrio: Share internet connection with your GNSS / GPS receiver over USB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</article>
 	</article>
 
 - This also requires users to configure a [network bridge](https://en.wikipedia.org/wiki/Network_bridge) on the Raspberry Pi.
