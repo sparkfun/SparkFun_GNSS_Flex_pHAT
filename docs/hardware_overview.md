@@ -63,13 +63,14 @@
 
 	---
 
-	- x1 - SparkPNT GNSS Flex Module
+	- x1 - [SparkPNT GNSS Flex Module](../modules.md)
 	- x1 - [Tall GPIO Female Headers - 2x20 Pin](https://www.sparkfun.com/tall-gpio-female-headers-2x20-pin.html)
 	- x1 - [50mm U.FL to U.FL Cable](https://www.sparkfun.com/u-fl-to-u-fl-mini-coax-cable-50mm.html)
 	- x4 - Aluminum Hex Standoff
 		- Thread: M2.5-0.45; Length: 16mm
 	- x8 - Phillips Machine Screw
 		- Thread: M2.5-0.45x8mm
+
 
 -   <!-- Boxes in tabs -->
 
@@ -116,7 +117,7 @@
 
 				<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 				<iframe src="https://www.youtube.com/embed/-eXuD8pkCYw" title="KiCad Dimension Tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr }
+				![QR code to play video](./assets/img/qr_code/dimension_tool.png){ .qr width="85px" }
 				</article>
 
 </div>
@@ -178,6 +179,7 @@ In its simplest form, the SparkFun GNSS Flex pHAT sits atop a Raspberry Pi inter
 
 ### Interfaces
 The following interfaces and signals of the GNSS Flex system are connected to the 40-pin female GPIO header of the GNSS Flex pHAT. Below, are tables detailing the pin connections for each interface.
+
 
 !!! tip "UART Numbering"
 	Please note that the UART numbers (UART1 - UART4) listed below follow the GNSS Flex Module UART numbering scheme. The mosaic-X5 supports four hardware UARTs (COM1 - COM4). The LG290P supports only three (UART1 - UART3).
@@ -440,7 +442,7 @@ The Qwiic connector attached to the primary I<sup>2</sup>C interface of the 40-p
 
 	<article class="video-500px" style="text-align: center; margin: auto;" markdown>
 	<iframe src="https://www.youtube.com/embed/x0RDEHqFIF8" title="SparkFun's Qwiic Connect System" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	![QR code to instructional video](./assets/img/qr_code/qwiic_video.png){ .qr width=100 }
+	![QR code to instructional video](./assets/img/qr_code/video-qwiic.png){ .qr width="85px" }
 	</article>
 
 	</div>
@@ -457,6 +459,7 @@ The Qwiic connector attached to the primary I<sup>2</sup>C interface of the 40-p
 
 			Qwiic cables (4-pin JST) plug easily from development boards to sensors, shields, accessory boards and more, making easy work of setting up a new prototype.
 
+
 		=== "Polarized Connector"
 
 			![polarized connector - light theme](./assets/img/qwiic/polarized_connector-light.png#only-light){ align="left" width="90" }
@@ -465,6 +468,7 @@ The Qwiic connector attached to the primary I<sup>2</sup>C interface of the 40-p
 			There's no need to worry about accidentally swapping the `SDA` and `SCL` wires on your breadboard. The Qwiic connector is polarized so you know you’ll have it wired correctly every time.
 
 			The part numbers for the PCB connector is `SM04B-SRSS` ([Datasheet](https://cdn.sparkfun.com/assets/parts/1/2/2/8/9/Qwiic_Connector_Datasheet.pdf)) and the mating connector on the cables is `SHR04V-S-B`; or an equivalent *1mm pitch, 4-pin JST connection*.
+
 
 		=== "Daisy Chain-able"
 

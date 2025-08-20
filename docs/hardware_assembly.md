@@ -46,10 +46,13 @@
 ## External Antenna
 In order to receive [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation "Global Navigation Satellite System") signals, users will need a compatible antenna. For the best performance, we recommend an active, L1/L2/L5/L6 GNSS antenna.
 
+
 <figure markdown>
 [![Antenna connection](./assets/img/hookup_guide/assembly-antenna.jpg){ width="400" }](./assets/img/hookup_guide/assembly-antenna.jpg "Click to enlarge")
 <figcaption markdown>Connecting an antenna to the GNSS Flex pHAT.</figcaption>
 </figure>
+
+
 
 ### Connection Options
 There are two options for connecting an external antenna to a GNSS Flex module:
@@ -85,6 +88,7 @@ There are two options for connecting an external antenna to a GNSS Flex module:
 
 ### Antenna Bridge
 The antenna bridge on the GNSS Flex pHAT can be utilized to connect an external antenna to the SMA connector. For the connection to work, an U.FL cable needs to bridge the antenna connection from the GNSS Flex module to the GNSS Flex pHAT. Due to the space constraint, we recommend connecting the U.FL cable to the GNSS Flex pHAT before attaching the GNSS Flex module to the pHAT.
+
 
 <div class="grid" markdown>
 
@@ -131,7 +135,7 @@ The antenna bridge on the GNSS Flex pHAT can be utilized to connect an external 
 
 
 
-## Attach Module
+## GNSS Flex Module
 The GNSS Flex system is a modular ecosystem designed around two 2x10-pin, 2mm pitch headers, so boards are pin-compatible for upgrades and easily swapped for repairs. Users simply, stack a SparkPNT GNSS Flex module onto the headers of its associated *carrier* board.
 
 
@@ -170,6 +174,7 @@ Before assembling the mechanical hardware for the GNSS Flex pHAT, users should c
 
 ### Header Extension
 When assembling the GNSS Flex pHAT, users should utilize the extension header that best suits their needs.
+
 
 <figure markdown>
 [![Attaching the extension header to a Pi](./assets/img/hookup_guide/assembly-header.jpg){ width="400" }](./assets/img/hookup_guide/assembly-header.jpg "Click to enlarge")
@@ -265,9 +270,6 @@ Once users have attached the standoffs to the GNSS Flex pHAT, it can be stacked 
 </div>
 
 </div>
-
-
-
 
 
 
