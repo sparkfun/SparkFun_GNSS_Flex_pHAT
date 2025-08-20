@@ -12,6 +12,8 @@
 - Component Documentation
 	- :fontawesome-solid-file-pdf: [HAT+ Specification](./assets/component_documentation/hat-plus-specification.pdf)
 	- :fontawesome-solid-file-pdf: [HAT+ Wordmark Guidelines](./assets/component_documentation/hat-plus-wordmark-guidelines.pdf)
+	- :fontawesome-solid-file-pdf: [AP7361C LDO Datasheet](./assets/component_documentation/AP7361C.pdf)
+	- :fontawesome-solid-file-pdf: [RT9080 LDO Datasheet](./assets/component_documentation/RT9080.pdf)
 - PyGPSClient Software
 	- :material-github: [GitHub Repository](https://github.com/semuconsulting/PyGPSClient)
 	- :material-github: [Installation Instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#installation)
