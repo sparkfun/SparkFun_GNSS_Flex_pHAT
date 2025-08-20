@@ -58,7 +58,7 @@ For users unfamiliar with the following platforms, we have linked additional res
 	- [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/)
 		- [Getting Started](https://www.raspberrypi.com/documentation/computers/getting-started.html)
 			<article class="video-500px" style="text-align: center; margin: auto;" markdown>
-			![QR code to play video](./assets/img/qr_code/pi-setup_instructions.png){ .qr }
+			![QR code to play video](./assets/img/qr_code/pi-setup_instructions.png){ .qr width="85px" }
 			<iframe src="https://www.youtube.com/embed/CQtliTJ41ZE" title="How to set up a Raspberry Pi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</article>
 		- [Raspberry Pi OS](https://www.raspberrypi.com/documentation/computers/os.html#updating-and-upgrading-raspberry-pi-os)
@@ -91,11 +91,13 @@ For users unfamiliar with the following platforms, we have linked additional res
 ## Update Software
 Once users have got their SBC up and running, ensure that it is utilizing the latest software. Run the following commands to update and upgrade any installed packages:
 
+
 ```shell
 sudo apt update
 sudo apt full-upgrade
 sudo apt autoremove --purge && sudo apt clean
 ```
+
 
 !!! info
 	[Advanced Package Tool (APT)](https://en.wikipedia.org/wiki/APT_(software)) is the recommended way to install, update, and remove software in Raspberry Pi OS. Users can access APT through the `apt` CLI.
@@ -122,17 +124,22 @@ In the Raspberry Pi OS, users can enable access to the serial interface through 
 !!! tip "Is PyGPSClient disconnecting?"
 	If PyGPSClient disconnects from the serial port after a few seconds, you probably still have the Login Shell enabled. Use `raspi-config` to ensure: the serial port hardware is enabled; and that [the login shell is *not* accessible](https://www.raspberrypi.com/documentation/computers/configuration.html#disabling-the-linux-serial-console).
 
-### Additional UARTs
 
+
+### Additional UARTs
 The GNSS Flex pHAT supports up to four hardware UART connections. On Raspberry Pi, it may be necessary to enable the three additional UARTs manually. On Raspberry Pi 5, the additional ports usually appear as `/dev/ttyAMA2`, `/dev/ttyAMA3` and `/dev/ttyAMA4`. In a Terminal Window, type `ls /dev/tty*` to list all the available ports. If the ports are not enabled, you can enable them by editing `/boot/firmware/config.txt`:
 
+
 - Edit `/boot/firmware/config.txt`
+
 
 	```shell
 	sudo nano /boot/firmware/config.txt
 	```
 
+
 - Add these three lines to the end of the file
+
 
 	```shell
 	dtoverlay=uart2
@@ -140,7 +147,9 @@ The GNSS Flex pHAT supports up to four hardware UART connections. On Raspberry P
 	dtoverlay=uart4
 	```
 
+
 - Save the file using `crtl-X` and select `Save`
+
 
 - Reboot the Pi with `sudo reboot`
 
@@ -156,11 +165,14 @@ To access the serial port on most Linux platforms, users will need to be a membe
 
 - [`adduser` Utility](https://manpages.ubuntu.com/manpages/xenial/man8/adduser.8.html)
 
+
 	```shell
 	sudo adduser <username> <groupname>
 	```
 
+
 - [`usermod` Utility](https://manpages.ubuntu.com/manpages/xenial/man8/usermod.8.html)
+
 
 	```shell
 	sudo usermod -aG <groupname> <username>
@@ -168,13 +180,12 @@ To access the serial port on most Linux platforms, users will need to be a membe
 
 
 
-
 ## PyGPSClient
-[PyGPSClient](https://github.com/semuconsulting/PyGPSClient) is a free, open-source graphical interface for GNSS receiver testing and evaluation. We recommend the software for the Raspberry Pi and other SBCs because it is supported on multiple operating systems. It works very well on desktop machines too - if you have Python installed.
+[PyGPSClient](https://github.com/semuconsulting/PyGPSClient) is a free, open-source graphical interface for GNSS receiver testing and evaluation. We recommend the software for the Raspberry Pi and other SBCs because it is supported on multiple operating systems. It also works very well on desktop machines too, if the GNSS module has a USB interface.
 
 
 !!! info "System Requirements"
-	The installation requires an internet connection to download the Python package from PyPI. Additionally, users will also need administrative privileges *(or root access `sudo`)* for the installation and [access the hardware connections](#serial-interface). Other than this, no special privileges are required.
+	The installation requires an internet connection to download the Python package from PyPI. Additionally, users will also need administrative privileges *(or root access `sudo`)* for the installation and [access the hardware connections](#enable-serial-interface). Other than this, no special privileges are required.
 
 
 
@@ -185,6 +196,7 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 
 #### Shell Script
 [Installation instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#install-using-installation-script---macos--64-bit-debian-based-linux-only) for the example shell scripts are detailed in the GitHub repository's `README.md` file.
+
 
 <article style="text-align: center;" markdown>
 [Example Installation Script](https://github.com/semuconsulting/PyGPSClient/blob/master/examples/pygpsclient_debian_install.sh "Go to file"){ .md-button .md-button--primary }
@@ -218,6 +230,7 @@ There are a variety of [installation methods](https://github.com/semuconsulting/
 python3 -m pip install pygpsclient
 ```
 
+
 ```shell
 pip3 install pygpsclient
 ```
@@ -236,6 +249,7 @@ With the latest version of the Raspberry Pi OS, Bookworm, users will need to fol
 #### Create a Virtual Environment
 To create a virtual environment, in a specific `<directory>`:
 
+
 ```shell
 python3 -m venv <directory>
 ```
@@ -253,9 +267,11 @@ python3 -m venv <directory>
 #### Activate the Virtual Environment
 To activate the virtual environment that was created in the `<directory>`:
 
+
 ```shell
 source <directory>/bin/activate
 ```
+
 
 - **Install the Application in the Virtual Environment**
 
@@ -265,6 +281,7 @@ source <directory>/bin/activate
 	python3 -m pip install pygpsclient
 	```
 
+
 - **Run the Application in the Virtual Environment**
 
 	To run the application in the virtual environment:
@@ -272,6 +289,7 @@ source <directory>/bin/activate
 	```shell
 	pygpsclient
 	```
+
 
 !!! example
 	To install and run the the Python package inside the `env` virtual environment:
@@ -287,22 +305,28 @@ source <directory>/bin/activate
 #### Deactivate the Virtual Environment
 To deactivate the virtual environment:
 
+
 ```shell
 deactivate
 ```
 
+
 - Once deactivated, the virtual environment can be reactivated with the activation command:
+
 
 	```shell
 	source <directory>/bin/activate
 	```
 
+
 - To reactivate and run the Python package in the virtual environment:
+
 
 	```shell
 	source <directory>/bin/activate
 	pygpsclient
 	```
+
 
 	!!! example
 		```shell
@@ -315,11 +339,13 @@ deactivate
 ### Enable User Port
 In certain circumstances, users may need to manually configure the serial port for the application to function.
 
+
 - **Pi 3/4/Zero 2W:**
 
 	```shell
 	sudo pygpsclient ---userport /dev/ttyS0
 	```
+
 
 - **Pi 5:**
 
@@ -332,6 +358,7 @@ In certain circumstances, users may need to manually configure the serial port f
 ### Launch Options
 While not required to operate the `PyGPSClient` software, user have additional options for how the Python package is executed.
 
+
 - To operate the software outside of a virtual environment, users can add the directory of the software's binaries to the `PATH` variable.
 - To utilize the software without an open terminal to be open, users can create a desktop application launcher.
 
@@ -340,25 +367,33 @@ While not required to operate the `PyGPSClient` software, user have additional o
 #### Locate Relevant Binaries
 The location of the relevant binaries folder can usually be found by executing one of the following commands:
 
+
 - If the package was installed in the virtual environment, activate it:
+
 
 	```shell
 	source <directory>/bin/activate
 	```
 
+
 - For a global installation, execute the following command:
+
 
 	```shell
 	python3 -c "import os,sysconfig;print(sysconfig.get_path('scripts'))"
 	```
 
+
 	The system should return the following directory for the relevant binaries, in a virtual environment:
+
 
 	```shell
 	/home/<user>/<directory>/bin
 	```
 
+
 - Deactivate, if inside a virtual environment:
+
 
 	```shell
 	deactivate
@@ -367,6 +402,7 @@ The location of the relevant binaries folder can usually be found by executing o
 
 !!! example
 	For a virtual environment, to find the directory of the relevant binaries execute the following commands:
+
 
 	```shell
 	source env/bin/activate
@@ -392,6 +428,7 @@ The system should return the following directory for the relevant binaries:
 #### Add to `PATH` Variable
 To make the Python package accessible outside of the virtual environment, the directory of the relevant binaries need to be added to the `PATH` variable:
 
+
 ```shell
 export PATH="$PATH:<directory to relevant binaries>"
 source ~/.profile
@@ -407,6 +444,7 @@ source ~/.profile
 
 
 Once added, the application should now be available outside of the virtual environment:
+
 
 ```shell
 pygpsclient
@@ -440,7 +478,9 @@ source /etc/profile
 #### Application Launcher
 In addition to the previous sections, users can [follow these instructions](https://github.com/semuconsulting/PyGPSClient/blob/master/APPLAUNCH.md) to create an application launcher.
 
+
 1. Create a text file named `pygpsclient.desktop` with the following content and save it in the `/home/<user>/.local/share/applications` directory.
+
 
 	```shell
 	[Desktop Entry]
@@ -493,6 +533,7 @@ In addition to the previous sections, users can [follow these instructions](http
 
 To receive and process NTRIP RTK correction data from an NTRIP server in the PyGPSClient software, users can follow [these instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#ntrip-client-facilities):
 
+
 1. Click on the :material-satellite-uplink: icon, labeled `NTRIP Client`.
 1. Enter the information for the network and mount point.
 	- For an NTRIP server hosted by the `PyGPSClient` software:
@@ -527,6 +568,7 @@ To receive and process NTRIP RTK correction data from an NTRIP server in the PyG
 
 If their GNSS receiver is supported by NTRIP sever feature of the PyGPSClient software, users can follow [these instructions](https://github.com/semuconsulting/PyGPSClient?tab=readme-ov-file#socket-server--ntrip-caster-facilities) to setup their Raspberry Pi to operate as an NTRIP sever:
 
+
 1. In the settings console, scroll to the bottom and select `NTRIP CASTER` from the **Mode** drop-down menu.
 1. Select the box for `Configure Base Station` and select the GNSS receiver from the drop-down menu.
 1. Select a mode of operation for the base station and provide the necessary information.
@@ -541,30 +583,51 @@ If their GNSS receiver is supported by NTRIP sever feature of the PyGPSClient so
 ## mosaic-X5 - Internet Access
 In order to receive or cast RTK corrections to/from a RTK network, such as NTRIP, the mosaic-X5 GNSS receiver will need access to the internet through the USB interface.
 
+
 - Users will need to use the web interface to enable the `Outgoing Internet Access Over USB` from the **Communication** > **USB** drop-down menu of the navigation tabs.
+
 
 	<article class="video-500px" style="margin: auto;">
 	<iframe src="https://www.youtube.com/embed/bUt8cL9Ue1Y" title="Septentrio: Share internet connection with your GNSS / GPS receiver over USB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</article>
 
+
 - This also requires users to configure a [network bridge](https://en.wikipedia.org/wiki/Network_bridge) on the Raspberry Pi.
+
+
 	<figure markdown>
 	[![Configure Network Bridge](./assets/img/hookup_guide/pi-network_configuration.gif){ width="400" }](./assets/img/hookup_guide/pi-network_configuration.gif "Click to enlarge")
 	<figcaption markdown>Editing the network connections to create a network bridge.</figcaption>
 	</figure>
+
+
 	1. Open the network connections menu by opening the network manager (i.e. &uarr;&darr; or :fontawesome-solid-wifi: icon on taskbar) and selecting **Advanced Options** > **Edit Connections**.
+
+
 		<figure markdown>
 		[![Network Manager](./assets/img/hookup_guide/pi-network_manager.png){ width="400" }](./assets/img/hookup_guide/pi-network_manager.png "Click to enlarge")
 		<figcaption markdown>Editing the connections through the Raspberry Pi's **Network Manager**.</figcaption>
 		</figure>
+
+
 	1. Check the wired connections under **Ethernet** to locate the connection that lists **Device:** `usb0 ....` in its properties.
+
+
 		<figure markdown>
 		[![Network connections](./assets/img/hookup_guide/pi-network_connections.png){ width="400" }](./assets/img/hookup_guide/pi-network_connections.png "Click to enlarge")
 		<figcaption markdown>Check the connections listed under **Ethernet**.</figcaption>
 		</figure>
+
+
 	1. For that network connection, select the **IP v4 Settings** tab and select `Shared to other computers` from the **Method** drop-down menu.
+
+
 	1. Click **Save** to apply the changes.
+
+
 	1. Reboot the Raspberry Pi.
+
+
 	1. To determine the new IP address assigned to the mosaic-X5, click on network manager and select **Advanced Options** > **Connection Information**. Locate the IP address listed for the same wired connection.
 
 
@@ -572,13 +635,20 @@ In order to receive or cast RTK corrections to/from a RTK network, such as NTRIP
 			Once a network bridge is enabled, the receiver will receive its IP address from the computer's DHCP server. Depending on the routing table, the module may no longer be reachable at its default IP address *(`192.168.3.1`)*.
 
 			If users need to determine the subnet address of the network connection, they need to install a tool called `nmap`.
+
+
 			```shell
 			sudo apt install nmap -y
 			```
+
+
 			In a terminal enter the following command to determine IP address.
+
+
 			```shell
 			nmap <IP Address>/24
 			```
+
 
 			- With the `*/24` option, the program will scan all the **Class C** subnet addresses (i.e. from `A.B.C.x` through `A.B.C.255`)
 
