@@ -31,7 +31,7 @@
 
 	- x1 - [SparkFun GNSS Flex pHAT](https://www.sparkfun.com/sparkfun-gnss-flex-phat.html)
 	- x1 - [Tall GPIO Female Headers - 2x20 Pin](https://www.sparkfun.com/tall-gpio-female-headers-2x20-pin.html)
-	- x1 - 50mm U.FL to U.FL Cable
+	- x1 - [50mm U.FL to U.FL Cable](https://www.sparkfun.com/u-fl-to-u-fl-mini-coax-cable-50mm.html)
 	- x4 - Aluminum Hex Standoff
 		- Thread: M2.5-0.45; Length: 16mm
 	- x8 - Phillips Machine Screw
