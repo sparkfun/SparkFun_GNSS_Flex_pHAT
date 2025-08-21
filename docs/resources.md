@@ -4,6 +4,7 @@
 	- :sfe: [SparkFun GNSS Flex pHAT](https://www.sparkfun.com/sparkfun-gnss-flex-phat.html)
 	- :sfe: [SparkFun GNSS Flex pHAT - mosaic-X5](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5.html)
 	- :sfe: [SparkFun GNSS Flex pHAT - LG290P](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p.html)
+	- :sfe: [SparkFun GNSS Flex pHAT - DAN-F10N](https://www.sparkfun.com/sparkfun-gnss-flex-phat-dan-f10n.html)
 - :material-folder-cog: Design Files:
 	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
 	- :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf)
