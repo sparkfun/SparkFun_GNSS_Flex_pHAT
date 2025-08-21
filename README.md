@@ -61,7 +61,8 @@ Product Variants
 
 Version History
 ---------------
-- [v10](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT/releases/tag/v10) - Initial Release
+- [v01](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT/releases/tag/v01) - Initial Release
+- [v02](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT/releases/tag/v02) - Adds DAN-F10N GNSS Flex module
 
 
 License Information
