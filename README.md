@@ -56,6 +56,7 @@ Product Variants
 - Kits:
   - [GPS-28766](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5.html) - w/ the Septentrio mosaic-X5 GNSS Flex module
   - [GPS-28929](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p.html) - w/ the Quectel LG290P GNSS Flex module
+  - [GPS-29491](https://www.sparkfun.com/sparkfun-gnss-flex-phat-dan-f10n.html) - w/ the u-blox DAN-F10N GNSS Flex module
 
 
 Version History
