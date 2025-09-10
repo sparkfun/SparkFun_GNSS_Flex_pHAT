@@ -54,15 +54,21 @@ Product Variants
 ----------------
 - [GPS-28137](https://www.sparkfun.com/sparkfun-gnss-flex-phat.html) - GNSS Flex pHAT *(only)*
 - Kits:
-  - [GPS-28766](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5.html) - w/ the Septentrio mosaic-X5 GNSS Flex module
-  - [GPS-28929](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p.html) - w/ the Quectel LG290P GNSS Flex module
-  - [GPS-29491](https://www.sparkfun.com/sparkfun-gnss-flex-phat-dan-f10n.html) - w/ the u-blox DAN-F10N GNSS Flex module
+  - pHAT + GNSS Module *(only)*:
+    - [GPS-28766](https://www.sparkfun.com/sparkfun-gnss-flex-phat-mosaic-x5.html) - w/ the Septentrio mosaic-X5 GNSS Flex module
+    - [GPS-28929](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p.html) - w/ the Quectel LG290P GNSS Flex module
+    - [GPS-29491](https://www.sparkfun.com/sparkfun-gnss-flex-phat-dan-f10n.html) - w/ the u-blox DAN-F10N GNSS Flex module
+    - [GPS-29887](https://www.sparkfun.com/sparkfun-gnss-flex-phat-zed-x20p.html) - w/ the u-blox ZED-X20P GNSS Flex module
+  - pHAT + GNSS Module w/ IMU:
+    - [GPS-29891](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p-im19-imu.html) - w/ the Quectel LG290P GNSS Flex module + IM19 IMU
+    - [GPS-29888](https://www.sparkfun.com/sparkfun-gnss-flex-phat-zed-x20p-im19-imu.html) - w/ the u-blox ZED-X20P GNSS Flex module + IM19 IMU
 
 
 Version History
 ---------------
 - [v01](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT/releases/tag/v01) - Initial Release
 - [v02](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT/releases/tag/v02) - Adds DAN-F10N GNSS Flex module
+- [v03](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT/releases/tag/v03) - Adds LG290P and ZED-X20P GNSS Flex modules w/ optional IM19 IMU
 
 
 License Information
