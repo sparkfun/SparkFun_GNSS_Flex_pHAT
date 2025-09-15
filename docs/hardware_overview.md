@@ -32,7 +32,7 @@
 
 -	The SparkFun GNSS Flex pHAT is a Raspberry Pi pHAT that functions as a *carrier board* for our SparkPNT GNSS Flex modules. With pre-soldered headers, no soldering is required to stack the pHAT on the headers of a Raspberry Pi, NVIDIA Jetson Nano, Google Coral, or other single-board computer with a similar 40-pin header.
 
-	The GNSS Flex pHAT also comes populated with two sets of 2x10 pin, 2mm pitch male headers for attaching a GNSS Flex module. With these headers, the GNSS Flex system is designed to be modular so that boards are pin-compatible for upgrades and can be easily swapped for repairs. Depending on the capabilities of the GNSS Flex module that is connected, these pins will breakout the USB, UART (x4), I<sup>2</sup>C, and SD card interfaces for the GNSS receiver along with any PPS or event signals, using a standardized pin out.
+	The GNSS Flex pHAT also comes populated with two sets of 2x10 pin, 2mm pitch male headers for attaching a GNSS Flex module. With these headers, the GNSS Flex system is designed to be modular so that boards are pin-compatible for upgrades and can be easily swapped for repairs. Depending on the capabilities of the GNSS Flex module that is connected, these pins will breakout the USB, UART (x4), I^2^C, and SD card interfaces for the GNSS receiver along with any PPS or event signals, using a standardized pin out.
 
 </div>
 
@@ -125,7 +125,7 @@
 
 
 ## Board Layout
-The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mate the two types of boards. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows board to be easily swapped for repairs. Depending on the capabilities of the GNSS receiver, these pins will breakout the USB, UART (x4), I<sup>2</sup>C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
+The GNSS Flex system is designed around two 2x10-pin, 2mm pitch headers used mate the two types of boards. A standardized pin layout, keeps the ecosystem pin-compatible for upgrades and allows board to be easily swapped for repairs. Depending on the capabilities of the GNSS receiver, these pins will breakout the USB, UART (x4), I^2^C, and SD card interfaces along with any PPS or event signals of the GNSS receiver.
 
 
 <figure markdown>
@@ -151,7 +151,7 @@ The GNSS Flex pHAT has the following features:
 1. **SD Card Slot**
 : Depending on the capabilities of the GNSS Flex module, a &micro;SD card slot for data logging.
 1. **Qwiic Connector**
-: A Qwiic connector for attaching peripheral devices to the I<sup>2</sup>C bus.
+: A Qwiic connector for attaching peripheral devices to the I^2^C bus.
 
 
 
@@ -263,7 +263,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 	</div>
 
 
-=== "I<sup>2</sup>C"
+=== "I^2^C"
 
 	<div class="grid cards desc" markdown>
 
@@ -285,7 +285,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 
 	<figure markdown>
 	[![GPIO header](./assets/img/hookup_guide/gpio-i2c.png){ width="650" }](./assets/img/hookup_guide/gpio-i2c.png "Click to enlarge")
-	<figcaption markdown>The pin connections of the I<sup>2</sup>C interface, from the GNSS Flex system to the 40-pin female GPIO header.</figcaption>
+	<figcaption markdown>The pin connections of the I^2^C interface, from the GNSS Flex system to the 40-pin female GPIO header.</figcaption>
 	</figure>
 
 	</div>
@@ -410,7 +410,7 @@ Depending on the capabilities of the GNSS receiver, the &micro;SD card slot can 
 
 
 ## Qwiic Connector
-The Qwiic connector attached to the primary I<sup>2</sup>C interface of the 40-pin GPIO header.
+The Qwiic connector attached to the primary I^2^C interface of the 40-pin GPIO header.
 
 
 <figure markdown>
@@ -426,10 +426,10 @@ The Qwiic connector attached to the primary I<sup>2</sup>C interface of the 40-p
 	<div markdown>
 
 	<!-- Qwiic Banner -->
-	<center>
+	<article style="text-align: center;" markdown>
 	[![Qwiic Logo - light theme](./assets/img/qwiic/qwiic_logo-light.png#only-light){ width=400 }](https://www.sparkfun.com/qwiic)
 	[![Qwiic Logo - dark theme](./assets/img/qwiic/qwiic_logo-dark.png#only-dark){ width=400 }](https://www.sparkfun.com/qwiic)
-	</center>
+	</article>
 
 	---
 
@@ -510,5 +510,5 @@ There are twenty-three jumpers on the GNSS Flex pHAT:
 - All the jumpers labeled with numbers, can be cut tp disconnect a signal from the GNSS Flex header to the associated Raspberry Pi GPIO pin *(refer to the [40-pin GPIO Header section](#40-pin-gpio-header))*.
 - All the jumpers next to the status LEDs, can be cut to disable the associated LED.
 - There are two `I2C` jumpers; one next to the Qwiic connector and one next to the unpopulated EEPROM footprint.
-	- The `I2C` jumper next to the Qwiic connector, can be cut to disconnect the two 3.9k&ohm; pull-up resistors for that I<sup>2</sup>C bus.
+	- The `I2C` jumper next to the Qwiic connector, can be cut to disconnect the two 3.9k&ohm; pull-up resistors for that I^2^C bus.
 	- The `I2C` jumper next to the EEPROM footprint, can be closed to connect two 3.9k&ohm; pull-up resistors if an EEPROM is populated.
