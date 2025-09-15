@@ -148,6 +148,21 @@ The GNSS Flex pHAT supports up to four hardware UART connections. On Raspberry P
 	```
 
 
+	!!! rpi
+		On the Raspberry Pi 5, we used the following configuration:
+
+		```shell
+		# Enable UART Ports
+		dtparam=uart0=on
+		enable_uart=1
+
+		dtoverlay=uart0
+		dtoverlay=uart2,ctsrts
+		dtoverlay=uart3,ctsrts
+		dtoverlay=uart4
+		```
+
+
 - Save the file using `crtl-X` and select `Save`
 
 
@@ -177,6 +192,47 @@ To access the serial port on most Linux platforms, users will need to be a membe
 	```shell
 	sudo usermod -aG <groupname> <username>
 	```
+
+
+
+## Enable I^2^C Interface
+Depending on the SBC platform, users may need to enable access to the I^2^C interface from the 40-pin GPIO header for the operating system.
+
+
+
+### Configuration Settings
+In the Raspberry Pi OS, users can enable access to the serial interface through the [`raspi-config`](https://www.raspberrypi.com/documentation/computers/configuration.html#raspi-config) configuration tool. The tool can be utilized through either the CLI or [desktop GUI](https://www.raspberrypi.com/documentation/computers/configuration.html#raspberry-pi-configuration). To change the configuration settings, users will need to navigate through the [Interface options](https://www.raspberrypi.com/documentation/computers/configuration.html#interfacing-options) > [I2C port](https://www.raspberrypi.com/documentation/computers/configuration.html#i2c) menus and enable the serial port.
+
+
+???+ note
+	Not all of the advanced configuration options from the CLI are available in the Raspberry Pi Configuration GUI.
+
+
+???+ tip "`config.txt. Method"
+	If the I^2^C port is not enabled after rebooting your Pi, you can try to enable it by editing `/boot/firmware/config.txt`:
+
+
+	- Edit `/boot/firmware/config.txt`
+
+
+		```shell
+		sudo nano /boot/firmware/config.txt
+		```
+
+
+	- Uncomment the line with `dtparam=i2c_arm=on`
+
+
+		```shell
+		# Uncomment some or all of these to enable the optional hardware interfaces
+		dtparam=i2c_arm=on
+		```
+
+
+- Save the file using `crtl-X` and select `Save`
+
+
+- Reboot the Pi with `sudo reboot`
 
 
 
