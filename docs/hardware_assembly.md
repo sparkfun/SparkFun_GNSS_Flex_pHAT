@@ -44,8 +44,7 @@
 
 
 ## External Antenna
-In order to receive [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation "Global Navigation Satellite System") signals, users will need a compatible antenna. For the best performance, we recommend an active, L1/L2/L5/L6 GNSS antenna.
-
+In order to receive [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation "Global Navigation Satellite System") signals, users will need a compatible antenna. For the best performance, we recommend an active L1/L2/L5/L6/L-band GNSS antenna for most of our GNSS Flex modules.
 
 <figure markdown>
 [![Antenna connection](./assets/img/hookup_guide/assembly-antenna.jpg){ width="400" }](./assets/img/hookup_guide/assembly-antenna.jpg "Click to enlarge")
@@ -53,12 +52,20 @@ In order to receive [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation "G
 </figure>
 
 
+!!! tip
+	For the best performance, we recommend users choose a compatible L1/L2/L5/L6 GNSS antenna and utilize a low-loss cable. Also, don't forget that GNSS signals are fairly weak and can't penetrate buildings or dense vegetation. The GNSS antenna should have an unobstructed view of the sky.
+
+
+	!!! note
+		Please keep in mind that these are general suggestions for our GNSS Flex modules. Some of these boards may have multiple GNSS antenna connections, an integrated antenna, support specific frequency bands, etc. For more details on a specific GNSS Flex module, please refer to their [hookup guide](modules.md).
+
+
 
 ### Connection Options
 There are two options for connecting an external antenna to a GNSS Flex module:
 
-- An external antennas can be connected through the U.FL connector on the GNSS Flex board.
-- However, for a sturdier connection, there is a signal pass-through between the U.FL and SMA antenna connectors on the GNSS Flex pHAT. To utilize the SMA connector, user can bridge the U.FL connections of the boards with a U.FL cable.
+- An external antenna can be connected through the U.FL connector on the GNSS Flex pHAT.
+- However, for a sturdier connection, there is a signal pass-through between the U.FL and SMA antenna connectors on the GNSS Flex pHAT. To utilize the SMA connector, users can bridge the U.FL connections between the boards with a U.FL cable.
 
 
 <div class="grid" markdown>
@@ -86,8 +93,8 @@ There are two options for connecting an external antenna to a GNSS Flex module:
 
 
 
-### Antenna Bridge
-The antenna bridge on the GNSS Flex pHAT can be utilized to connect an external antenna to the SMA connector. For the connection to work, an U.FL cable needs to bridge the antenna connection from the GNSS Flex module to the GNSS Flex pHAT. Due to the space constraint, we recommend connecting the U.FL cable to the GNSS Flex pHAT before attaching the GNSS Flex module to the pHAT.
+### Signal Bridge
+The signal bridge on the GNSS Flex pHAT can be utilized to connect an external antenna to the SMA connector. For the connection to work, an U.FL cable needs to bridge the antenna connection from the GNSS Flex module to the GNSS Flex pHAT. Due to the space constraint, we recommend connecting the U.FL cable to the GNSS Flex pHAT before attaching the GNSS Flex module to the pHAT.
 
 
 <div class="grid" markdown>
