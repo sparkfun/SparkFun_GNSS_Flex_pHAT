@@ -57,7 +57,7 @@ In order to receive [GNSS](https://en.wikipedia.org/wiki/Satellite_navigation "G
 
 
 	!!! note
-		Please keep in mind that these are general suggestions for our GNSS Flex modules. Some of these boards may have multiple GNSS antenna connections, an integrated antenna, support specific frequency bands, etc. For more details on a specific GNSS Flex module, please refer to their [hookup guide](modules.md).
+		Please keep in mind that these are general suggestions for our GNSS Flex modules. Some of these boards may have multiple GNSS antenna connections, an integrated antenna, support specific frequency bands, etc. For more details on a specific GNSS Flex module, please refer to their [hookup guide](../modules.md).
 
 
 
@@ -84,7 +84,7 @@ There are two options for connecting an external antenna to a GNSS Flex module:
 
 <figure markdown>
 [![Antenna connection to the pHAT](./assets/img/hookup_guide/assembly-ufl_bridge.jpg){ width="400" }](./assets/img/hookup_guide/assembly-ufl_bridge.jpg "Click to enlarge")
-<figcaption markdown>Bridging the U.FL connections of the boards, to utilize the SMA connector on the GNSS Flex pHAT.</figcaption>
+<figcaption markdown>Bridging the U.FL connectors on the boards, to utilize the SMA connector on the GNSS Flex pHAT.</figcaption>
 </figure>
 
 </div>
@@ -316,4 +316,15 @@ If the GNSS Flex module has the capability, an SD card slot is provided on the G
 <figure markdown>
 [![USB connection](./assets/img/hookup_guide/assembly-sd_card.jpg){ width="400" }](./assets/img/hookup_guide/assembly-sd_card.jpg "Click to enlarge")
 <figcaption markdown>Jumpers on the bottom of the GNSS Flex pHAT.</figcaption>
+</figure>
+
+
+
+## Qwiic Devices
+The Qwiic system allows users to effortlessly prototype with a Qwiic compatible I^2^C device without soldering. Users can connect Qwiic [sensors or boards](https://www.sparkfun.com/special-categories/qwiic.html?sf_qwiic_product_type=8273%2C8279%2C8285%2C8288%2C8291%2C8294) with just a few [Qwiic cables](https://www.sparkfun.com/sparkfun-qwiic-cable-kit.html). (*\*The example below, is for demonstration purposes and is not pertinent to the board functionality or this tutorial.*)
+
+
+<figure markdown>
+[![Qwiic devices connected](./assets/img/hookup_guide/assembly-qwiic.jpg){ width="400" }](./assets/img/hookup_guide/assembly-qwiic.jpg "Click to enlarge")
+<figcaption markdown>A Qwiic OLED display connected to the GNSS Flex pHAT.</figcaption>
 </figure>

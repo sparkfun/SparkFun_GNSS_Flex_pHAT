@@ -196,7 +196,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 	=== "UART1"
 		<article style="text-align: center;" markdown>
 
-		| GNSS Flex Pin| Raspberry Pi GPIO |
+		| GNSS Flex Pin | Raspberry Pi GPIO |
 		| :---: | :---------------- |
 		| `RX1` | `GPIO14` *(`TX`)* |
 		| `TX1` | `GPIO15` *(`RX`)* |
@@ -209,7 +209,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 	=== "UART2"
 		<article style="text-align: center;" markdown>
 
-		| GNSS Flex Pin| Raspberry Pi GPIO |
+		| GNSS Flex Pin | Raspberry Pi GPIO |
 		| :----: | :------------------- |
 		| `RX2`  | `GPIO08` *(`CE0`)*   |
 		| `TX2`  | `GPIO09` *(`POCI0`)* |
@@ -224,7 +224,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 	=== "UART3"
 		<article style="text-align: center;" markdown>
 
-		| GNSS Flex Pin| Raspberry Pi GPIO |
+		| GNSS Flex Pin | Raspberry Pi GPIO |
 		| :----: | :------------------- |
 		| `RX3`  | `GPIO04` *(`GCLK0`)* |
 		| `TX3`  | `GPIO05` *(`GCLK1`)* |
@@ -239,7 +239,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 	=== "UART4"
 		<article style="text-align: center;" markdown>
 
-		| GNSS Flex Pin| Raspberry Pi GPIO |
+		| GNSS Flex Pin | Raspberry Pi GPIO |
 		| :---: | :------------------ |
 		| `RX4` | `GPIO12` *(`PMW0`)* |
 		| `TX4` | `GPIO13` *(`PMW1`)* |
@@ -271,7 +271,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 
 	<article style="text-align: center;" markdown>
 
-	| GNSS Flex Pin| Raspberry Pi GPIO |
+	| GNSS Flex Pin | Raspberry Pi GPIO |
 	| :---: | :------------------ |
 	| `SDA` | `GPIO02` *(`SDA`)* |
 	| `SCL` | `GPIO03` *(`SCL`)* |
@@ -301,7 +301,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 
 	<article style="text-align: center;" markdown>
 
-	| GNSS Flex Pin| Raspberry Pi GPIO |
+	| GNSS Flex Pin | Raspberry Pi GPIO |
 	| :----: | :------- |
 	| `PPS1` | `GPIO22` |
 	| `PPS2` | `GPIO23` |
@@ -331,7 +331,7 @@ The following interfaces and signals of the GNSS Flex system are connected to th
 
 	<article style="text-align: center;" markdown>
 
-	| GNSS Flex Pin| Raspberry Pi GPIO |
+	| GNSS Flex Pin | Raspberry Pi GPIO |
 	| :------: | :------- |
 	| `EVENTA` | `GPIO24` |
 	| `EVENTB` | `GPIO25` |
