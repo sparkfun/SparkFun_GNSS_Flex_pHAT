@@ -321,7 +321,7 @@ If the GNSS Flex module has the capability, an SD card slot is provided on the G
 
 
 ## Qwiic Devices
-The Qwiic system allows users to effortlessly prototype with a Qwiic compatible I^2^C device without soldering. Users can connect Qwiic [sensors or boards](https://www.sparkfun.com/special-categories/qwiic.html?sf_qwiic_product_type=8273%2C8279%2C8285%2C8288%2C8291%2C8294) with just a few [Qwiic cables](https://www.sparkfun.com/sparkfun-qwiic-cable-kit.html). (*\*The example below, is for demonstration purposes and is not pertinent to the board functionality or this tutorial.*)
+The Qwiic system allows users to effortlessly prototype with a Qwiic compatible I^2^C device without soldering. Users can connect Qwiic [sensors or boards](https://www.sparkfun.com/special-categories/qwiic.html?sf_qwiic_product_type=8273%2C8279%2C8285%2C8288%2C8291%2C8294) with just a few [Qwiic cables](https://www.sparkfun.com/sparkfun-qwiic-cable-kit.html). *(The example below, is for demonstration purposes and is not pertinent to the board functionality or this tutorial.)*
 
 
 <figure markdown>
