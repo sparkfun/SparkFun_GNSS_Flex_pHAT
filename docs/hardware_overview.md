@@ -30,7 +30,7 @@
 	</article>
 
 
--	The SparkFun GNSS Flex pHAT is a Raspberry Pi pHAT that functions as a *carrier board* for our SparkPNT GNSS Flex modules. With pre-soldered headers, no soldering is required to stack the pHAT on the headers of a Raspberry Pi, NVIDIA Jetson Nano, Google Coral, or other single-board computer with a similar 40-pin header.
+-	The SparkFun GNSS Flex pHAT is a Raspberry Pi pHAT that functions as a [*carrier board*](../carriers.md) for our [SparkPNT GNSS Flex modules](../modules.md). With pre-soldered headers, no soldering is required to stack the pHAT on the headers of a Raspberry Pi, NVIDIA Jetson Nano, Google Coral, or other single-board computer with a similar 40-pin header.
 
 	The GNSS Flex pHAT also comes populated with two sets of 2x10 pin, 2mm pitch male headers for attaching a GNSS Flex module. With these headers, the GNSS Flex system is designed to be modular so that boards are pin-compatible for upgrades and can be easily swapped for repairs. Depending on the capabilities of the GNSS Flex module that is connected, these pins will breakout the USB, UART (x4), I^2^C, and SD card interfaces for the GNSS receiver along with any PPS or event signals, using a standardized pin out.
 
