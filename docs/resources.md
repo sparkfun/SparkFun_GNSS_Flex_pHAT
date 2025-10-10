@@ -8,6 +8,7 @@
 	- :sfe: [SparkFun GNSS Flex pHAT - LG290P & IM19](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p-im19-imu.html)
 	- :sfe: [SparkFun GNSS Flex pHAT - ZED-X20P](https://www.sparkfun.com/sparkfun-gnss-flex-phat-zed-x20p.html)
 	- :sfe: [SparkFun GNSS Flex pHAT - ZED-X20P & IM19](https://www.sparkfun.com/sparkfun-gnss-flex-phat-zed-x20p-im19-imu.html)
+	- :sfe: [SparkFun GNSS Flex pHAT - LG580P](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg580p.html)
 - :material-folder-cog: Design Files:
 	- :fontawesome-solid-file-pdf: [Schematic](./assets/board_files/schematic.pdf)
 	- :fontawesome-solid-file-pdf: [Board Dimensions](./assets/board_files/dimensions.pdf)

@@ -64,6 +64,7 @@ GNSS Flex *Carrier* Boards:
     - [GPS-28929](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p.html) - w/ the Quectel LG290P GNSS Flex module
     - [GPS-29491](https://www.sparkfun.com/sparkfun-gnss-flex-phat-dan-f10n.html) - w/ the u-blox DAN-F10N GNSS Flex module
     - [GPS-29887](https://www.sparkfun.com/sparkfun-gnss-flex-phat-zed-x20p.html) - w/ the u-blox ZED-X20P GNSS Flex module
+    - [GPS-29890](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg580p.html) - w/ the Quectel LG580P GNSS Flex module
   - pHAT + GNSS Module w/ IMU:
     - [GPS-29891](https://www.sparkfun.com/sparkfun-gnss-flex-phat-lg290p-im19-imu.html) - w/ the Quectel LG290P GNSS Flex module + IM19 IMU
     - [GPS-29888](https://www.sparkfun.com/sparkfun-gnss-flex-phat-zed-x20p-im19-imu.html) - w/ the u-blox ZED-X20P GNSS Flex module + IM19 IMU
@@ -75,6 +76,7 @@ Version History
 - [v02](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT/releases/tag/v02) - Adds DAN-F10N GNSS Flex module
 - [v03](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT/releases/tag/v03) - Adds LG290P and ZED-X20P GNSS Flex modules w/ optional IM19 IMU
 - [v04](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT/releases/tag/v04) - Update docs and link GNSS Flex breakout board
+- [v10](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT/releases/tag/v10) - Refactored the 3D model for new color adjustment script and linked the LG580P GNSS Flex module
 
 
 License Information
