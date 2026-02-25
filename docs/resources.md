@@ -25,8 +25,3 @@
 	- :simple-pypi: [PyPI Project](https://pypi.org/project/pygpsclient/)
 - :material-youtube: [Product Showcase](https://youtu.be/r-bhOLv4zsk)
 - :material-github: [Hardware Repo](https://github.com/sparkfun/SparkFun_GNSS_Flex_pHAT)
-
-
-### Additional Resources
-
-* :material-account-supervisor: [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance)
